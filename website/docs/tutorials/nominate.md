@@ -1,0 +1,82 @@
+---
+sidebar_position: 1
+sidebar_label: How to Nominate
+---
+
+# How to Nominate
+
+Nominations are where you help the mods create the tags you want to see in the event. Because tags may or may not exist, and can be formatted in so many different ways, restricting the tags you can use to a tag set helps the mods ensure a higher possibility of matching requests with offers. But we have no way of knowing what you want and just slapping "canonical tags" on the exchange would limit us to already existing tags. Using a Nomination process for our tag set allows us to tailor this exchange.
+
+> Each account can nominate up to 20 relationship tags for the exchange.
+
+:::note
+
+Nominations are not an agreement to participate in the exchange. They're only an indication you would want to see more content from a character or ship.
+
+:::
+
+1. When nominations are opened we post on twitter and tumblr linking to the tag set to be used for that year; a link is also added to this website. To start your tag nominations, click on the link to go to the tag set and then click the `Nominate` button on the top right.
+
+<a href="#img1" class="preview">
+<img src={require('/img/tutorial/nominate.png').default} alt="AO3 Tag Set Page" class="thumbnail"></img>
+</a>
+<p class="label">Button Location: click to enlarge</p>
+<p> </p>
+<a href="#_" class="lightbox" id="img1">
+<img src={require('/img/tutorial/nominate.png').default}></img>
+</a>
+
+2. Enter *Dragon Age - All Media Types* for your fandom selection. Enter one relationship per box. You can nominate up to 20 relationships. Please follow the below guidelines.
+
+:::info Nomination Guidelines
+
+- **If there is a canonical tag that shows up as a suggestion for your nomination please click to add it.** 
+- For OC/PC characters (like the Warden, Hawke, or Inquisitor) please include a gender, i.e. *Male Hawke*. Nonbinary characters can be nominated using Nonbinary in place of the gender.
+- For Warden and Inquisitor Characters, please make sure you include a last name, i.e. *Female Tabris* instead of *Female Warden*.
+For OCs which are not from in game backgrounds, use *Original Male Character*, *Original Female Character*, or *Original Nonbinary Character*.
+- Crossover ships are not allowed.
+- For a solo art piece or introspective/epistolary/character study fic, please use *Solo: [Character Name]*, i.e. *Solo: Solas*.
+- Please be sure to use AO3's basic ship guidelines:
+  - '/' is to be used for romantic or sexual relationships. (Please use this for queer platonic relationships as well.)
+  - '&' is to be used for friendships.  
+
+:::
+
+<a href="#img2" class="preview">
+<img src={require('/img/tutorial/canon.png').default} alt="A tag with a canon ship option" class="thumbnail"></img>
+</a>
+<p class="label">Canon Relationship Tag: click to enlarge</p>
+<p> </p>
+<a href="#_" class="lightbox" id="img2">
+<img src={require('/img/tutorial/canon.png').default}></img>
+</a>
+
+<a href="#img3" class="preview">
+<img src={require('/img/tutorial/nocanon.png').default} alt="A tag with no canon ship option" class="thumbnail"></img>
+</a>
+<p class="label">No Canon Solo Tag: click to enlarge</p>
+<p> </p>
+<a href="#_" class="lightbox" id="img3">
+<img src={require('/img/tutorial/nocanon.png').default}></img>
+</a>
+
+<a href="#img4" class="preview">
+<img src={require('/img/tutorial/allnomtypes.png').default} alt="Demonstration of all nomination types" class="thumbnail"></img>
+</a>
+<p class="label">All nomination types: click to enlarge</p>
+<p> </p>
+<a href="#_" class="lightbox" id="img4">
+<img src={require('/img/tutorial/allnomtypes.png').default}></img>
+</a>
+
+3. Once you have nominated all the ships you would like to nominate, scroll to the bottom and click the `Submit` button.
+
+:::caution
+
+You can only submit nominations **once**. AO3 will prevent you from submitting any more after the moderators have reviewed your nomination. Please be sure you have nominated all ships you would like to nominate **before** they are submitted.
+
+:::
+
+Once your nominations have been submitted, the mods will review to make sure if they are acceptable. **If there need to be edits or clarifications made, we will post to both the tumblr and twitter with details, so you can edit your nominations.** All accepted nominations will be added to a nominations google sheet accessible by anyone. The nominations sheet will be linked on the website and tumblr.
+
+#### Thanks for your interest and happy nominating!
