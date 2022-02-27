@@ -59,6 +59,14 @@ const config = {
               label: 'FAQs',
               docId: 'faqs',
             },
+            {
+              label: 'Tag Set',
+              href: 'https://archiveofourown.org/tag_sets/10114',
+            },
+            {
+              label: 'Nominations Sheet',
+              href: 'https://docs.google.com/spreadsheets/d/1Mx0Av8VYb0F92uyx_5YtFgeElchKvw1ape9hrKiI7tc/edit?usp=sharing',
+            },
           ],
           },
           {
@@ -71,6 +79,21 @@ const config = {
                 type: 'doc',
                 label: 'How to Nominate',
                 docId: 'tutorials/nominate',
+              },
+              {
+                type: 'doc',
+                label: 'How to Sign-Up',
+                docId: 'tutorials/signups',
+              },
+              {
+                type: 'doc',
+                label: 'On Exchange Letters',
+                docId: 'tutorials/letters',
+              },
+              {
+                type: 'doc',
+                label: 'How to Filter the AutoAO3 App',
+                docId: 'tutorials/autoao3',
               },
             ],
             },
@@ -127,6 +150,10 @@ const config = {
               label: 'FAQs',
               to: '/docs/faqs',
             },
+            {
+              label: 'Nominations Sheet',
+              href: 'https://docs.google.com/spreadsheets/d/1Mx0Av8VYb0F92uyx_5YtFgeElchKvw1ape9hrKiI7tc/edit?usp=sharing',
+            },
           ],
           },
           {
@@ -134,6 +161,18 @@ const config = {
             items: [{
                 label: 'How to Nominate',
                 to: '/docs/tutorials/nominate',
+              },
+              {
+                label: 'How to Sign-Up',
+                to: '/docs/tutorials/signups',
+              },
+              {
+                label: 'On Exchange Letters',
+                to: '/docs/tutorials/letters',
+              },
+              {
+                label: 'How to Filter the AutoAO3 App',
+                to: '/docs/tutorials/autoao3',
               },
             ],
           },
