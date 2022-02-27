@@ -3,6 +3,7 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
+import Countdown from '../components/Countdown';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -20,6 +21,7 @@ export default function Home() {
       description="A Dragon Age fan exchange focused on a celebration of Elvhen characters.">
       <HomepageHeader />
       <main>
+        <Countdown />
         <HomepageFeatures />
       </main>
     </Layout>
