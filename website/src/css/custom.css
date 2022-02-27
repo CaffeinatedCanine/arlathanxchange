@@ -337,6 +337,7 @@ i.fa-brands {
   padding: 5px;
   border: 1px solid var(--ifm-color-primary-lightest);
   border-radius: 5px;
+  filter: grayscale(50%);
 }
 
 .label {
