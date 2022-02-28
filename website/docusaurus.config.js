@@ -115,6 +115,12 @@ const config = {
             label: 'Twitter',
             className: 'twitter',
           },
+          {
+            href: 'https://discord.gg/F73NDYMeGC',
+            position: 'left',
+            label: 'Discord',
+            className: 'discord',
+          },
         ],
       },
       colorMode: {
@@ -185,6 +191,10 @@ const config = {
               {
                 label: 'Twitter DM',
                 href: 'https://twitter.com/messages/compose?recipient_id=1439385611652239362',
+              },
+              {
+                href: 'https://discord.gg/F73NDYMeGC',
+                label: 'Discord'
               },
               {
                 label: 'arlathanxchange@gmail.com',

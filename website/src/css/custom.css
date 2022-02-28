@@ -56,6 +56,7 @@
   --ifm-footer-color: #e3e3e3;
   --ifm-navbar-link-color: #E3E3E3;
   --ifm-navbar-link-hover-color: #FDEB86;
+  --ifm-menu-link-sublist-icon-filter: invert(100%) sepia(94%) saturate(17%) hue-rotate(223deg) brightness(104%) contrast(98%);
   --ifm-font-family-base: 'Roboto', sans-serif;
   --ifm-font-family-monospace: 'Cutive Mono', 'Courier New', monospace;
   --ifm-code-font-size: 95%;
@@ -150,6 +151,12 @@ html[data-theme='light'] .navbar-sidebar {
   content: 'A';
 }
 
+.discord::before {
+  font: var(--fa-font-brands);
+  content: '\f392';
+  padding-right: 5px;
+}
+
 .tumblr::before {
   font: var(--fa-font-brands);
   content: '\f173';
@@ -165,6 +172,7 @@ html[data-theme='light'] .navbar-sidebar {
 .info,
 .tutorial,
 .ao3,
+.discord,
 .tumblr,
 .twitter {
   justify-content: flex-start;
