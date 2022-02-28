@@ -9,9 +9,16 @@
 @import "/fontawesome/css/all.css";
 
 @font-face {
-  font-family: AO3;
-  src: url('/AO3_font.ttf') format('truetype');
-}
+  font-family: 'AO3';
+  src: url('/AO3.eot'); 
+  src: url('/AO3.eot?#iefix') format('embedded-opentype'),
+      url('/AO3.woff') format('woff'), 
+      url('/AO3.woff2') format('woff2'), 
+      url('/AO3.ttf')  format('truetype'), 
+      url('/AO3.svg') format('svg'); 
+  font-weight: normal; 
+  font-style: normal;
+  }
 
 /* Removes Docusaurus external link icon */
 [class*=iconExternalLink] {
