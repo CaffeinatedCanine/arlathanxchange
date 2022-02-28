@@ -25,7 +25,7 @@ Pieces can be character studies (solo), gen fic (friendship, non-romance), or ro
 3. The exchange allows dark fic, works which deal with substance abuse and other "problematic" themes, so long as a main character is an elf. **Please be sure to list anything you do not want to receive in your requests.** When fulfilling requests, make sure to tag "problematic" content!
 4. The exchange does not accept works featuring minor-aged characters (under 18) in sexual situations. However, we will accept non-sexual romantic works featuring characters aged 16+, and gen or solo fic featuring characters of all ages.
 5. Please do not alter skintone drastically from canon. In short, no white washing. If you have questions please reach out to moderators.
-6. Please do not change the sexual orientation of canonically homosexual characters (i.e. no pieces which depict Dorian with a female character or Sera with a male character) or write canonically trans characters as cis. Other bisexual headcanons, trans/nb headcanons, and genderswap/sexswap works are okay.
+6. Please do not change the sexual orientation of canonically homosexual characters (i.e. no pieces which depict Dorian with a female character or Sera with a male character) or make canonically trans characters cis. Other bisexual headcanons, trans/nb headcanons, and genderswap/sexswap works are okay.
 
 ### The Works
 7. By signing up you agree you will create one 1000 word fic or completed art piece (clean lineart) for your assigned giftee by the end of the exchange. There is no maximum word count.
