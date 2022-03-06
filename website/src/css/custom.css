@@ -113,6 +113,15 @@ html[data-theme='dark'] {
   --ifm-footer-link-hover-color: #FDEB86;
 }
 
+/* Sets custom colors for light/dark toggle */
+[class*="lightToggleIcon"] {
+  color: #e3e3e3;
+}
+
+[class*="darkToggleIcon"] {
+  color: #e3e3e3;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;

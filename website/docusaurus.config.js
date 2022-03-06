@@ -123,23 +123,6 @@ const config = {
           },
         ],
       },
-      colorMode: {
-        defaultMode: 'light',
-        disableSwitch: false,
-        respectPrefersColorScheme: true,
-        switchConfig: {
-          darkIcon: '\u263E',
-          darkIconStyle: {
-            marginLeft: '2px',
-            color: 'white'
-          },
-          lightIcon: '\u263C',
-          lightIconStyle: {
-            marginLeft: '1px',
-            color: 'white'
-          },
-        },
-      },
       footer: {
         style: 'dark',
         links: [{
