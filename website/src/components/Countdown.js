@@ -3,7 +3,7 @@ import styles from '../pages/index.module.css';
 
 function Countdown() {
   const calculateTimeLeft = () => {
-    const difference = +new Date(`2022-03-12T20:00:00-05:00`) - +new Date();
+    const difference = +new Date(`2022-03-26T08:00:00-04:00`) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -42,8 +42,8 @@ function Countdown() {
   });
   return (
     <div className={styles.countdown}>
-      <h1>Nominations Open In</h1>
-      <b>{timerComponents.length ? timerComponents : <span>Nominations Open</span>}</b>
+      <h1>Nominations Close In</h1>
+      <b>{timerComponents.length ? timerComponents : <span>Nominations Closed</span>}</b>
     </div>
   );
 }

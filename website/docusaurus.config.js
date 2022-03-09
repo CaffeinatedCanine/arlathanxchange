@@ -194,6 +194,13 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Arlathan eXchange. Built with Docusaurus.`,
+      },      announcementBar: {
+        id: 'discord',
+        content:
+          '✨ Tag Nominations Open! <a href="https://archiveofourown.org/tag_sets/10114">Click here</a> to nominate! ✨',
+        backgroundColor: '#66140F',
+        textColor: '#E3E3E3',
+        isCloseable: true,
       },
       prism: {
         theme: lightCodeTheme,
