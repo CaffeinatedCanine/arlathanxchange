@@ -4,7 +4,7 @@ sidebar_label: On Exchange Letters
 ---
 
 # On Exchange Letters
-[Exchange Letters](https://fanlore.org/wiki/Dear_Creator_Letter) (also known as “Dear Creator Letters”, “Dear (Event) Author”, or “Dear Santa” for holiday exchanges) are letters created to include with a gift exchange sign up. They are sometimes used in place of the `Prompt` field and sometimes in conjunction with.
+[Exchange Letters](https://fanlore.org/wiki/Dear_Creator_Letter) (also known as “Dear Creator Letters”, “Dear (Event) Author”, or “Dear Santa” for holiday exchanges) are letters created to include with a gift exchange sign-up. They are sometimes used in place of the `Prompt` field and sometimes in conjunction with.
 
 These letters often contain more in depth information which might not fit in the AO3 `Prompt` field due to length; it can also be easier to include non-text information (like links and images) in a letter as the `Prompt` field requires basic HTML knowledge to do so. Letters often contain information on general likes and preferences, do not wants (DNWs), preferred formats for writing, art preferences, in depth prompts, AUs, kinks, tropes, what you like about certain ships or the fandom in general, etc. In exchanges that allow Original Characters (like Arlathan eXchange) letters can also contain info on your OCs.
 
@@ -41,11 +41,17 @@ The below options are useful for hosting your letters in a place where your gift
 
     You can also drop your letter into a regular [tumblr](http://www.tumblr.com) post or page. If you would like to keep your letter off your mutuals’ dashes you can make the post private and then a few hours (or days) later make it public. It will not appear on their dash if they sort by popularity or by timeline unless it suddenly gets a lot of likes.
 
-    Please be cautious about using tumblr pages are there are issues with them working for mobile users; the Android tumblr app often redirects from a page back to the blog homepage not allowing people to see the page.
+    Please be cautious about using tumblr pages as there are issues with them working for mobile users; the Android tumblr app often redirects from a page back to the blog homepage not allowing people to see the page.
 
 - **Livejournal/Dreamwidth/Wordpress/Other Blogging Site**
     
     Although not as widely used now as tumblr, Livejournal and Dreamwidth are still around and you can post on these sites for your letter. Wordpress or other blogging sites like Blogger are not as popular for fandom endeavors, but they can absolutely be used for a fandom letter, too.
+
+:::caution
+
+Please keep in mind that Livejournal is hosted on Russian servers. Given the current state of affairs and Putin planning to cut Russia off from the international internet, this may impact your letter. You may want to keep a back-up copy somewhere else just to be safe.
+
+:::
 
 - **Free Webhosts**
 

@@ -79,4 +79,10 @@ You can only submit nominations **once**. AO3 will prevent you from submitting a
 
 Once your nominations have been submitted, the mods will review to make sure if they are acceptable. **If there need to be edits or clarifications made, we will post to both the tumblr and twitter with details, so you can edit your nominations.** All accepted nominations will be added to a nominations google sheet accessible by anyone. The nominations sheet will be linked on the website and tumblr.
 
+:::note
+
+The mods cannot see who has nominated what tags, so we can't specifically reach out to you if your nominations do not fit the guidelines. Please be sure to watch the twitter and tumblr closely for any issues with nominations so that you can make corrections!
+
+:::
+
 #### Thanks for your interest and happy nominating!

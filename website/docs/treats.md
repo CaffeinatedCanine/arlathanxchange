@@ -32,7 +32,7 @@ To make sure you can receive treats, please double check your Gift settings, esp
 :::
 
 ## I only want specific treats for specific prompts.
-During sign-ups you can indicate what type of treats (if any) you want for each group of pairings you request. In the `Additional Tags` box, please select what types of treats you'd be open to receiving for each prompt. You could, for example, select `Fanfic` and `Treats - Fanart`; this wold indicate that you'd rather have fanfic for a main gift, but would accept a fanart treat.
+During sign-ups you can indicate what type of treats (if any) you want for each group of pairings you request. In the `Additional Tags` box, please select what types of treats you'd be open to receiving for each prompt. You could, for example, select `Fanfic` and `Treats - Fanart`; this would indicate that you'd rather have fanfic for a main gift, but would accept a fanart treat.
 
 `Treats - Other` indicates you would be willing to receive other fan creations like fanmixes, podfic (of a new or existing story), moodboards, etc.
 

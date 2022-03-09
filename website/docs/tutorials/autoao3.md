@@ -13,7 +13,7 @@ The **AutoAO3 App** was made by a fandom coder who wanted a more visually pleasi
 The app works by scraping the data already available on AO3. That's a fancy way of saying that it uses code to pull the exchange's info from AO3, get what it wants, and spit back out again in a visually pleasing format. There are a couple of things you can and **should** do to make your filtering more pleasant.
 
 1. Start by rescraping the data. (*Optional.*)
-    The mods are pretty dilligent about rescraping (getting the new info) about sign-ups a couple of times a day, but if you want to rescrape to ensure you have the most up to date versions, you are more than welcome to do so. It won't hurt anything!
+    The mods are pretty dilligent about rescraping sign-ups (getting the new info) a couple of times a day, but if you want to rescrape to ensure you have the most up to date versions, you are more than welcome to do so. It won't hurt anything!
 
     The app displays the last time the info was scraped in a dark gray bar in your local time. To rescrape, simply hit the red `Re-scrape` button and wait for 5-15 minutes for it to get all the new data. Then, refresh your page.
 
@@ -150,7 +150,7 @@ Please be sure to read the prompts that are returned thoroughly. This filter can
 
 In order to help with matching, our sign-ups use the *Freeform* field to designate whether fanart or fanfic are being requested. For your assigned recipient, you should look for the `Fanfic` or `Fanart` tags on their prompt which designates their desire for their main gift.
 
-If you're looking to complete treats of a specific type, you can search for participants who want those treats the below tags:
+If you're looking to complete treats of a specific type, you can search for participants who want those treats using the below tags:
 - `Treats - Fanart` for Fanart treats.
 - `Treats - Fanfic` for Fanfic treats.
 - `Treats - Other` for alternative fanwork treats.

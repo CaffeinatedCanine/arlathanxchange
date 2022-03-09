@@ -22,7 +22,7 @@ All participants who sign-up must create either a fanfic or fanart gift in the a
 
 - *Fanfic:* Assigned fics should be at least 1000 words. (We do allow shorter [treats](#treats)! More on those below.) There is no maximum word count. Multichapter fics are allowed but must be completed when submitted; you cannot plan to post updates after the exchange has closed. Fics may be included in another series or collection; however, please make sure any fic gifted can stand on its own. Your gift recipient shouldn't have to read your 150,000 word slowburn fic to be able to enjoy their gift! <br /><br />
 **ɴᴏᴛᴇ:** Please be sure to add any series or collections which could identify you *after* creator reveals.
-- *Fanart:* completed, clean line art. Color and rendering are not required, but the piece must look finished and whole, with identifiable characters. No WIPs are allowed. Artists, please check out this faq on artist anonymity.
+- *Fanart:* completed, clean line art. Color and rendering are not required, but the piece must look finished and whole, with identifiable characters. No WIPs are allowed. Artists, please check out [this faq](#artist) on artist anonymity.
 - All gifts should be allowed to be hosted on AO3.
 - All gifts should comply with the requestor's do not wants.
 - Smut is allowed (nay, encouraged!) as long as it doesn't contain a DNW in the request.
@@ -33,13 +33,13 @@ All participants who sign-up must create either a fanfic or fanart gift in the a
 :::
 
 ## What are nominations?
-Nominations are where you help the mods create the tags you want to see in the event! Because ship tags may or may not exist, can be formatted in so many different ways, restricting the tags you can use to a tag set helps the mods ensure a higher possibility of matching requests with offers. But we have no way of knowing what you want and just slapping "canonical tags" on the exchange would limit us to already existing tags. Using a Nomination process for our tag set allows us to tailor this exchange.  
+Nominations are where you help the mods create the tags you want to see in the event! Because ship tags may or may not exist and can be formatted in so many different ways, restricting the tags you can use to a tag set helps the mods ensure a higher possibility of matching requests with offers. But we have no way of knowing what you want and just slapping "canonical tags" on the exchange would limit us to already existing tags. Using a Nomination process for our tag set allows us to tailor this exchange.  
 
 Each account can nominate up to 20 tags for the exchange.  
 
 Nominations are not an agreement to participate in the exchange. They're only an indication of "please give me more content for this tag".  
 
-**Please be sure to follow nomination guidelines carefully.** More info on how to nominate will be posted closer to the exchange.
+**Please be sure to follow nomination guidelines carefully.** You can find out more in [Tutorials - How to Nominate](/tutorials/nominate).
 
 ## How do I sign up?
 Once sign-ups open, start by clicking the `Sign-Up Form` link to the left or button at the top. You must have at least 1 request and 1 offer to sign up, but you may add up to three ship/character tags per request/offer and have up to 10 requests and 10 offers in total.
@@ -47,8 +47,7 @@ Once sign-ups open, start by clicking the `Sign-Up Form` link to the left or but
 :::importantDetails
 
 - **For Both Requests and Offers:** Please use *Dragon Age - All Media Types* for your fandom, and mark whether you are interested in fanart or fanfic for your main gift. Please also indicate if you are open to treats and what type of treats.<br /><br />
-- **For Offers:** In place of offering specific ships/characters, you may also be brave and offer to create for "Any" ship, by clicking the "Any" button.<br /><br />
-More information on how to fill out requests and offers will be posted before sign-ups open!
+- **For Offers:** In place of offering specific ships/characters, you may also be brave and offer to create for "Any" ship, by clicking the "Any" button.
 
 :::
 
@@ -65,7 +64,7 @@ For more information see [Tutorials - How to Sign-Up](/docs/tutorials/signups).
 ## What are Do Not Wants (DNWs)?
 Very simply put, it's a list of squicks, triggers, or even just dislikes that you'd rather your gifts and [treats](#treats) not contain. It can be specific ratings, characters, tropes, kinks, themes, etc, particularly ones that aren't banned from the exchange. For example, if you aren't a fan of smut you can list rated e works as a DNW or if you're okay with rated e, but not a fan of works containing pegging, you can simply list pegging.  
 
-Since it can be impossible to be exhaustive, a phrase that comes highly recommended is "DNW: kinks other than as requested". This allows you to request specific kinks, and potentially avoid landminds of kinks you're not familiar with.
+Since it can be impossible to be exhaustive, a phrase that comes highly recommended is "DNW: kinks other than as requested". This allows you to request specific kinks, and potentially avoid landmines of kinks you're not familiar with.
 
 ## What happens after I sign-up?
 Sign-ups close for everyone on `Saturday, April 9, 2022 at 8pm EST`. The mods will start making matches. If matches are not able to be made, we will reach out to you about potentially editing your requests or offers to help make a match. Please make sure to keep a close eye on your emails or DMs and respond to them ASAP.  
@@ -81,6 +80,8 @@ Once works are revealed on `May 30, 2022`, you may NOT post about your work on a
 Creators will be revealed one week after work reveals on `June 6, 2022 at 8pm`. At this time you can post on other sites revealing which work is your own!  
 
 The collection will remain open for *at least* two weeks after creator reveals so that more [**Treats**](#treats) can be added to the collection. At that time we'll close the collection.
+
+<a id="artist"></a>
 
 ## But I'm an artist, what about artist signatures?
 We encourage artists to create two versions of their art for the exchange. The first one should not contain any identifying watermarks or signatures. You may use a watermark that does not contain your username to help protect your work from art theft.  

@@ -56,7 +56,7 @@ The sign-up form is also linked on our tumblr and in the header and footer of th
 </a>
 
 #### Offers
-- **Fandom** - `Click the Dragon Age - All Media Types` box.
+- **Fandom** - Click the `Dragon Age - All Media Types` box.
 - **Relationships** - Put at least 1 and up to 3 relationships that you would like to create content for. You must have at least 1 relationship per offer.
     - `Any Relationship` - If you are very brave, please click the "Any Relationship" button to indicate you're okay with creating content for ANY ship or character that was nominated.
 - **Additional Tags** - Choose whether you would like to create fanart or fanfic (or either).
