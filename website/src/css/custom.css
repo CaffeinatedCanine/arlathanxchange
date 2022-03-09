@@ -113,6 +113,21 @@ html[data-theme='dark'] {
   --ifm-footer-link-hover-color: #FDEB86;
 }
 
+/* Announcement bar styling */
+.close {
+  color: #E3E3E3;
+}
+
+[class*="announcementBar"] {
+  font-weight: bold;
+}
+
+@media (min-width: 997px) {
+:root {
+    --docusaurus-announcement-bar-height: 45px !important;
+}
+}
+
 /* Sets custom colors for light/dark toggle */
 [class*="lightToggleIcon"] {
   color: #e3e3e3;
