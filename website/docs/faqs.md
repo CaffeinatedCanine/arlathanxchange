@@ -39,7 +39,7 @@ Each account can nominate up to 20 tags for the exchange.
 
 Nominations are not an agreement to participate in the exchange. They're only an indication of "please give me more content for this tag".  
 
-**Please be sure to follow nomination guidelines carefully.** You can find out more in [Tutorials - How to Nominate](/tutorials/nominate).
+**Please be sure to follow nomination guidelines carefully.** You can find out more in [Tutorials - How to Nominate](/docs/tutorials/nominate).
 
 ## How do I sign up?
 Once sign-ups open, start by clicking the `Sign-Up Form` link to the left or button at the top. You must have at least 1 request and 1 offer to sign up, but you may add up to three ship/character tags per request/offer and have up to 10 requests and 10 offers in total.
