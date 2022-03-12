@@ -15,7 +15,7 @@ The app works by scraping the data already available on AO3. That's a fancy way 
 1. Start by rescraping the data. (*Optional.*)
     The mods are pretty dilligent about rescraping sign-ups (getting the new info) a couple of times a day, but if you want to rescrape to ensure you have the most up to date versions, you are more than welcome to do so. It won't hurt anything!
 
-    The app displays the last time the info was scraped in a dark gray bar in your local time. To rescrape, simply hit the red `Re-scrape` button and wait for 5-15 minutes for it to get all the new data. Then, refresh your page.
+    The app displays the last time the info was scraped in your local time to the right of the exchange info. To re-scrape, simply hit the red `Re-scrape` button on the far right side of the window and wait for 5-15 minutes for it to get all the new data. Then, refresh your page.
 
 <a href="#img1" class="preview">
 <img src={require('/img/tutorial/scrape.png').default} alt="Re-scrape Button"  class="thumbnail" />
@@ -73,9 +73,10 @@ The most useful tab for finding specific requests (and Treatless!) is the **All*
 <img src={require('/img/tutorial/whichfilters.png').default} />
 </a>
 
-- since we use `Dragon Age - All Media Types` to sign-up sorting by *Fandom* won't help. 
+- since we use `Dragon Age - All Media Types` to sign-up filtering by *Fandom* won't help. 
 - *Characters* only works if the Sign-Up sheet itself uses the Characters field; since our sign-up sheet uses the Relationships field this will not work for us. 
 - we do not allow *Optional Tags* during sign-up.
+- we do not use *Archive Warnings* during sign-up.
 
 </details>
 
