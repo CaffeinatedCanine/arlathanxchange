@@ -68,6 +68,14 @@ const config = {
               label: 'Nominations Sheet',
               href: 'https://docs.google.com/spreadsheets/d/1Mx0Av8VYb0F92uyx_5YtFgeElchKvw1ape9hrKiI7tc/edit?usp=sharing',
             },
+            {
+              label: 'Sign-Up Here',
+              href: 'https://archiveofourown.org/collections/arlathanxchange2022/signups/new',
+            },
+            {
+              label: 'AutoAO3: Requests & Treatless',
+              href: 'https://autoao3app.firebaseapp.com/#/arlathanxchange2022/all',
+            }
           ],
           },
           {
@@ -95,6 +103,16 @@ const config = {
                 type: 'doc',
                 label: 'How to Filter the AutoAO3 App',
                 docId: 'tutorials/autoao3',
+              },
+              {
+                type: 'doc',
+                label: 'How to Fulfill Your Assignment',
+                docId: 'tutorials/fulfill',
+              },
+              {
+                type: 'doc',
+                label: 'Keeping It Anon',
+                docId: 'tutorials/anon',
               },
             ],
             },
@@ -129,12 +147,8 @@ const config = {
         links: [{
             title: 'Info',
             items: [{
-              label: 'Schedule',
-              href: '/docs/intro#schedule',
-            },
-            {
-              label: 'Rules',
-              href: '/docs/intro#rules',
+              label: 'Basics',
+              href: '/docs/intro',
             },
             {
               label: 'FAQs',
@@ -143,6 +157,10 @@ const config = {
             {
               label: 'Nominations Sheet',
               href: 'https://docs.google.com/spreadsheets/d/1Mx0Av8VYb0F92uyx_5YtFgeElchKvw1ape9hrKiI7tc/edit?usp=sharing',
+            },
+            {
+              label: 'Sign-Up Here',
+              href: 'https://archiveofourown.org/collections/arlathanxchange2022/signups/new',
             },
           ],
           },
@@ -194,10 +212,11 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Arlathan eXchange. Built with Docusaurus.`,
-      },      announcementBar: {
-        id: 'discord',
+      },
+        announcementBar: {
+        id: 'signup',
         content:
-          '✨ Tag Nominations Open! <a href="https://archiveofourown.org/tag_sets/10114">Click here</a> to nominate! ✨',
+          '✨ Sign-Up <a href="https://archiveofourown.org/collections/arlathanxchange2022/signups/new">here</a>! ✨',
         backgroundColor: '#66140F',
         textColor: '#E3E3E3',
         isCloseable: true,
