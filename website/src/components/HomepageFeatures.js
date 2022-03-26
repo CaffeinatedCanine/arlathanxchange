@@ -20,8 +20,8 @@ const FeatureList = [
         are open to all fancreators willing to create a new fanfic or
         fanart piece within the deadline.
         <br /><br />
-        The 2022 Exchange will begin with nominations on Saturday, March
-        12, 2022 at <a href="https://dateful.com/convert/gmt-5?t=8:00pm">8pm EST</a>.
+        The 2022 Exchange began with nominations on Saturday, March
+        12, 2022 at 8pm EST.
       </>
     ),
   },
