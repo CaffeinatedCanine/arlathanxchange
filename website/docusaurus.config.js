@@ -213,14 +213,6 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Arlathan eXchange. Built with Docusaurus.`,
       },
-        announcementBar: {
-        id: 'signup',
-        content:
-          '✨ Sign-Up <a href="https://archiveofourown.org/collections/arlathanxchange2022/signups/new">here</a>! ✨',
-        backgroundColor: '#66140F',
-        textColor: '#E3E3E3',
-        isCloseable: true,
-      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
