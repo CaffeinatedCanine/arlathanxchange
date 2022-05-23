@@ -69,11 +69,17 @@ We understand. We ask that you do three things in order to help make sure you do
 Treatless partcipants are ones who haven't been gifted at least one treat. Many exchange participants like to make sure everyone gets a treat, so they work hard to clear the Treatless List, by writing or drawing more than one piece during the creation period. "Treatless" is our way of identifying those who haven't gotten an extra gift yet.
 
 ## Where is the Treatless List?
-Many exchanges create a separate Google Sheets spreadsheet which lists all of the treatless individuals and may or may not link to their requests. The AutoAO3 app which we're using for our requests spreadsheet allows a lot of cool sorting and filtering tricks, and we're using that to compile our treatless list.
+:::info
 
-Once someone has received a treat, the mods will add an `Additional Tag` which says **Treat Received**.
+Due to an error when creating the sign-up sheet, the mods have had to switch the plan below and <a href="https://bit.ly/3Emubuf">use a google sheet for the Treatless list</a>. You can find an additional link in the navbar above or in the menu on mobile.
 
-To find Treatless participants you only have to filter the request list for those people who do NOT have that tag by using `!"Treat Received"`in the **Freeforms:** box as shown below:
+:::
+
+<strike>Many exchanges create a separate Google Sheets spreadsheet which lists all of the treatless individuals and may or may not link to their requests. The AutoAO3 app which we're using for our requests spreadsheet allows a lot of cool sorting and filtering tricks, and we're using that to compile our treatless list.</strike>
+
+<strike>Once someone has received a treat, the mods will add an `Additional Tag` which says **Treat Received**.</strike>
+
+<strike>To find Treatless participants you only have to filter the request list for those people who do NOT have that tag by using `!"Treat Received"`in the **Freeforms:** box as shown below:</strike>
 
 <a href="#img4" class="preview">
 <img src={require('/img/treatreceived.png').default} alt="Treatless Filtering" class="thumbnail"></img>

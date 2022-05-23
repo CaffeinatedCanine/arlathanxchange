@@ -177,7 +177,13 @@ Be sure to use the full tags listed above for searching for treats to give. Ente
 <img src={require('/img/tutorial/freeformfilter.png').default} />
 </a>
 
-In addition, you can tell if someone has received a treat, because the Mods will be adding a `Treat Received` tag on their prompts. That means you can find Treatless participants by searching for `!"Treat Received"` in this field.
+<strike>In addition, you can tell if someone has received a treat, because the Mods will be adding a `Treat Received` tag on their prompts. That means you can find Treatless participants by searching for `!"Treat Received"` in this field.</strike>
+
+:::info
+
+Due to an error when creating the sign-up sheet, the mods have had to switch the plan above and <a href="https://bit.ly/3Emubuf">use a google sheet for the Treatless list</a>. You can find an additional link in the navbar above or in the menu on mobile.
+
+:::
 
 <a href="#img10" class="preview">
 <img src={require('/img/treatreceived.png').default} alt="Treatless Filtering" class="thumbnail"></img>

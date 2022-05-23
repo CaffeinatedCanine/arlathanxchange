@@ -69,13 +69,13 @@ const config = {
               href: 'https://docs.google.com/spreadsheets/d/1Mx0Av8VYb0F92uyx_5YtFgeElchKvw1ape9hrKiI7tc/edit?usp=sharing',
             },
             {
-              label: 'Sign-Up Here',
-              href: 'https://archiveofourown.org/collections/arlathanxchange2022/signups/new',
+              label: 'AutoAO3: Requests',
+              href: 'https://autoao3app.firebaseapp.com/#/arlathanxchange2022/all',
             },
             {
-              label: 'AutoAO3: Requests & Treatless',
-              href: 'https://autoao3app.firebaseapp.com/#/arlathanxchange2022/all',
-            }
+              label: 'Treatless List',
+              href: 'https://bit.ly/3Emubuf',
+            },
           ],
           },
           {
@@ -159,8 +159,8 @@ const config = {
               href: 'https://docs.google.com/spreadsheets/d/1Mx0Av8VYb0F92uyx_5YtFgeElchKvw1ape9hrKiI7tc/edit?usp=sharing',
             },
             {
-              label: 'Sign-Up Here',
-              href: 'https://archiveofourown.org/collections/arlathanxchange2022/signups/new',
+              label: 'Requests',
+              href: 'https://autoao3app.firebaseapp.com/#/arlathanxchange2022/all',
             },
           ],
           },
