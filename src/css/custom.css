@@ -5,7 +5,7 @@
  */
 
 /* Font imports Including Font Awesome Icons */
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Lora:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&family=Poiret+One&family=Montserrat&display=swap');
 @import "/fontawesome/css/all.css";
 
 @font-face {
@@ -63,8 +63,8 @@
   --ifm-footer-color: #e3e3e3;
   --ifm-navbar-link-color: #E3E3E3;
   --ifm-navbar-link-hover-color: #FDEB86;
-  --ifm-font-family-base: 'Roboto', sans-serif;
-  --ifm-font-family-monospace: 'Cutive Mono', 'Courier New', monospace;
+  --ifm-font-family-base: 'Montserrat', sans-serif;
+  --ifm-font-family-monospace: 'Syne Mono', 'Courier New', monospace;
   --ifm-code-font-size: 95%;
 }
 
@@ -256,7 +256,8 @@ h4,
 h6 {
   line-height: 1.2rem;
   font-weight: 400;
-  font-family: 'Lora', serif;
+  font-family: 'Poiret One', serif;
+  letter-spacing: 0.15rem;
   color: var(--ifm-color-primary-lightest);
 }
 
@@ -279,10 +280,11 @@ em {
   color: var(--ifm-color-primary-lightest);
 }
 
-strong {
-  font-family: 'Lora', serif;
-  font-variant: small-caps;
-  letter-spacing: 0.2rem;
+strong, b {
+  font-family: 'Poiret One', serif;
+  font-size: 1.25rem;
+  letter-spacing: 0.15rem;
+  color: var(--ifm-link-hover-color);
 }
 
 /* Sytling for mobile */
@@ -320,6 +322,10 @@ strong {
 
 .navbar__toggle {
   color: var(--ifm-navbar-link-color);
+}
+
+.navbar__title {
+  color: unset;
 }
 
 /* ModList Styling */
@@ -388,4 +394,25 @@ i.fa-brands {
   font-style: italic;
   margin-bottom: 5px;
   text-align: center;
+}
+
+.inlineNote {
+  font-family: var(--ifm-font-family-monospace);
+  color: var(--ifm-color-secondary);
+  font-weight: normal;
+}
+
+.inlineNote::before {
+  font-family: var(--ifm-font-family-monospace);
+  color: var(--ifm-color-secondary);
+  font-weight: bold;
+  content: 'NOTE:'
+}
+
+[class*="announcementBar"] {
+  font-family: (--ifm-font-family-base);
+}
+
+.close {
+  color: #3d3d3d;
 }
