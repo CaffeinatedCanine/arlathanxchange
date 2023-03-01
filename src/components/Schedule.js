@@ -1,18 +1,19 @@
 import React from "react";
 import dayjs from "dayjs";
-import localizedFormat from 'dayjs/plugin/localizedFormat';
+import localizedFormat from "dayjs/plugin/localizedFormat";
 
-function Schedule() {
-	dayjs.extend(localizedFormat);
-	const nominationsOpen = dayjs.unix(1678636800).format('LLLL');
-	const nominationsClose = dayjs.unix(1679760000).format('LLLL');
-	const signUpsOpen = dayjs.unix(1679846400).format('LLLL');
-	const signUpsClose = dayjs.unix(1681056000).format('LLLL');
-	const assignments = dayjs.unix(1681257600).format('LLLL');
-	const worksDue = dayjs.unix(1684684800).format('LLLL');
-	const worksRevealed = dayjs.unix(1685289600).format('LLLL');
-	const creatorsRevealed = dayjs.unix(1685894400).format('LLLL');
+dayjs.extend(localizedFormat);
 
+const nominationsOpen = dayjs.unix(1678636800).format("LLLL");
+const nominationsClose = dayjs.unix(1679760000).format("LLLL");
+const signUpsOpen = dayjs.unix(1679846400).format("LLLL");
+const signUpsClose = dayjs.unix(1681056000).format("LLLL");
+const assignments = dayjs.unix(1681257600).format("LLLL");
+const worksDue = dayjs.unix(1684684800).format("LLLL");
+const worksRevealed = dayjs.unix(1685289600).format("LLLL");
+const creatorsRevealed = dayjs.unix(1685894400).format("LLLL");
+
+export default function Schedule() {
 	return (
 		<ul>
 			<li>
@@ -43,4 +44,24 @@ function Schedule() {
 	);
 }
 
-export default Schedule;
+function SignUpsDate() {
+	return <code>{signUpsClose}</code>;
+}
+
+function AssignmentsDate() {
+	return <code>{assignments}</code>;
+}
+
+function DueDate() {
+	return <code>{worksDue}</code>;
+}
+
+function RevealsDate() {
+	return <code>{worksRevealed}</code>;
+}
+
+function CreatorsDate() {
+	return <code>{creatorsRevealed}</code>;
+}
+
+export { SignUpsDate, AssignmentsDate, DueDate, RevealsDate, CreatorsDate };

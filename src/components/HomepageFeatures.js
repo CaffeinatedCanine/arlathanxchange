@@ -30,7 +30,7 @@ const FeatureList = [
 function Feature({title, description}) {
   return (
       <div className="text--left padding-horiz--md">
-        <h3>{title}</h3>
+        <h2>{title}</h2>
         <p>{description}</p>
       </div>
   );
