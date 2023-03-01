@@ -252,7 +252,6 @@ h2,
 h3,
 h4,
 h6 {
-	line-height: 1.2rem;
 	font-weight: 400;
 	font-family: "Poiret One", serif;
 	letter-spacing: 0.15rem;
@@ -348,6 +347,10 @@ b {
 
 i.fa-brands {
 	padding-right: 5px;
+}
+
+i.no-padding {
+	padding: unset;
 }
 
 /* Image Labels */
