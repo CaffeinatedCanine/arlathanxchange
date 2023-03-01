@@ -19,9 +19,6 @@ const FeatureList = [
         open to gen fic, ships, or solo/introspective pieces. Sign-ups
         are open to all fancreators willing to create a new fanfic or
         fanart piece within the deadline.
-        <br /><br />
-        The 2022 Exchange began with nominations on Saturday, March
-        12, 2022 at 8pm EST.
       </>
     ),
   },
