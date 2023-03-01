@@ -15,7 +15,9 @@ const config = {
 	onBrokenMarkdownLinks: "warn",
 	favicon: "img/icon.png",
 	titleDelimiter: "|",
-
+	plugins: [
+		require.resolve('docusaurus-plugin-image-zoom')
+	  ],
 	presets: [
 		[
 			"classic",
@@ -60,22 +62,18 @@ const config = {
 								docId: "faqs",
 							},
 							{
-								label: "Tag Set",
-								href: "https://archiveofourown.org/tag_sets/10114",
+								label: "2023 Tag Set",
+								href: "https://archiveofourown.org/tag_sets/14455",
 							},
 							{
-								label: "Nominations Sheet",
+								label: "2023 Nominations Sheet",
 								href:
-									"https://docs.google.com/spreadsheets/d/1Mx0Av8VYb0F92uyx_5YtFgeElchKvw1ape9hrKiI7tc/edit?usp=sharing",
+									"https://docs.google.com/spreadsheets/d/1ruHKiXgFvfz54Q5m1K7wIMvVpbfI5k-_dk5mvxr9Sv8/edit?usp=sharing",
 							},
 							{
-								label: "AutoAO3: Requests",
+								label: "2023 AutoAO3: Requests",
 								href:
-									"https://autoao3app.firebaseapp.com/#/arlathanxchange2022/all",
-							},
-							{
-								label: "Treatless List",
-								href: "https://bit.ly/3Emubuf",
+									"https://autoao3app.fandom.tools/#/arlathanxchange2023/all",
 							},
 						],
 					},
@@ -119,7 +117,7 @@ const config = {
 					},
 					{
 						href:
-							"https://archiveofourown.org/collections/arlathanxchange2022/profile",
+							"https://archiveofourown.org/collections/arlathanxchange2023/profile",
 						position: "left",
 						label: "AO3",
 						className: "ao3",
@@ -161,12 +159,12 @@ const config = {
 							{
 								label: "Nominations Sheet",
 								href:
-									"https://docs.google.com/spreadsheets/d/1Mx0Av8VYb0F92uyx_5YtFgeElchKvw1ape9hrKiI7tc/edit?usp=sharing",
+									"https://docs.google.com/spreadsheets/d/1ruHKiXgFvfz54Q5m1K7wIMvVpbfI5k-_dk5mvxr9Sv8/edit?usp=sharingg",
 							},
 							{
 								label: "Requests",
 								href:
-									"https://autoao3app.firebaseapp.com/#/arlathanxchange2022/all",
+									"https://autoao3app.fandom.tools/#/arlathanxchange2023/all",
 							},
 						],
 					},
@@ -237,6 +235,13 @@ const config = {
 				backgroundColor: "#FDEB86",
 				textColor: "#3d3d3d",
 				isCloseable: true,
+			},
+			zoom: {
+				selector: '.markdown img',
+				background: {
+				  light: 'rgb(255, 255, 255, 0.75)',
+				  dark: 'rgba(0, 0, 0, 0.75)'
+				},
 			},
 		}),
 };
