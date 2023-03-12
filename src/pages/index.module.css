@@ -30,7 +30,7 @@
 }
 
 html[data-theme="dark"] .form {
-		filter: invert(100%) hue-rotate(180deg);
+		filter: invert(77%) hue-rotate(95deg);
 }
 
 @media screen and (max-width: 990px) {
