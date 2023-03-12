@@ -233,14 +233,6 @@ const config = {
 				{ name: "twitter:creator", content: "ArlathanXchange" },
 				{ name: "og:image", content: "/img/icon.png" },
 			],
-			announcementBar: {
-				id: "twitter_dms",
-				content:
-					'<i class="fa-brands fa-twitter no-padding"></i> Please note that although we are using twitter for posts, we are no longer accepting twitter DMs as official communication. Please use one of our other contact methods if you need mod help. <i class="fa-brands fa-twitter"></i>',
-				backgroundColor: "#FDEB86",
-				textColor: "#3d3d3d",
-				isCloseable: true,
-			},
 			zoom: {
 				selector: '.markdown img',
 				background: {
