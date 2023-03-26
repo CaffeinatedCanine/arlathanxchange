@@ -9,7 +9,7 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header>
-        <img src="/img/banner.png" className={styles.banner}></img>
+        <img src="/img/banner_new.png" className={styles.banner}></img>
     </header>
   );
 }

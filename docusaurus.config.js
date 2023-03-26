@@ -244,8 +244,8 @@ const config = {
 			zoom: {
 				selector: '.markdown img',
 				background: {
-				  light: 'rgb(255, 255, 255, 0.75)',
-				  dark: 'rgba(0, 0, 0, 0.75)'
+				  light: 'rgba(236, 241, 244, 0.75)',
+				  dark: 'rgba(14, 6, 44, 0.75)'
 				},
 			},
 		}),
