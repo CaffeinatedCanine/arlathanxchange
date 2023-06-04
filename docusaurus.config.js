@@ -6,34 +6,32 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: "Arlathan eXchange",
-	tagline:
-		"A Dragon Age fan exchange focused on a celebration of Elvhen characters.",
-	url: "https://arlathanxchange.neocities.org",
-	baseUrl: "/",
-	onBrokenLinks: "throw",
-	onBrokenMarkdownLinks: "warn",
-	favicon: "img/icon.png",
-	titleDelimiter: "|",
-	plugins: [
-		require.resolve('docusaurus-plugin-image-zoom')
-	  ],
-	presets: [
-		[
-			"classic",
-			/** @type {import('@docusaurus/preset-classic').Options} */
-			({
-				docs: {
-					breadcrumbs: false,
-					sidebarPath: require.resolve("./sidebars.js"),
-				},
-				blog: false,
-				theme: {
-					customCss: require.resolve("./src/css/custom.css"),
-				},
-			}),
-		],
-	],
+  title: "Arlathan eXchange",
+  tagline:
+    "A Dragon Age fan exchange focused on a celebration of Elvhen characters.",
+  url: "https://arlathanxchange.neocities.org",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/icon.png",
+  titleDelimiter: "|",
+  plugins: [require.resolve("docusaurus-plugin-image-zoom")],
+  presets: [
+    [
+      "classic",
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          breadcrumbs: false,
+          sidebarPath: require.resolve("./sidebars.js"),
+        },
+        blog: false,
+        theme: {
+          customCss: require.resolve("./src/css/custom.css"),
+        },
+      }),
+    ],
+  ],
 
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */

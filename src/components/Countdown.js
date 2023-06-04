@@ -4,7 +4,7 @@ import styles from '../pages/index.module.css';
 
 function Countdown() {
   const calculateTimeLeft = () => {
-    const difference = +new Date(`2023-03-12T12:00:00-04:00`) - +new Date();
+    const difference = +new Date(`2023-06-04T12:00:00-04:00`) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
