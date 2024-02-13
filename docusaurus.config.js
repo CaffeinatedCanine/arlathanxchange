@@ -5,6 +5,9 @@ const { themes } = require("prism-react-renderer");
 const lightTheme = themes.github;
 const darkTheme = themes.dracula;
 
+const copyright =
+  "<a href='https://thehangedmanpub.netlify.app'>The Hanged Man</a>";
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Arlathan eXchange",
@@ -26,7 +29,16 @@ const config = {
           breadcrumbs: false,
           sidebarPath: require.resolve("./sidebars.js"),
         },
-        blog: true,
+        blog: {
+          blogTitle: "Announcements",
+          blogDescription:
+            "See the latest announcements about Arlathan eXchange. Get exchange news and mod updates.",
+          showReadingTime: true,
+          feedOptions: {
+            type: "all",
+            copyright: `Copyright © ${new Date().getFullYear()} Arlathan eXchange`,
+          },
+        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -52,7 +64,7 @@ const config = {
             items: [
               {
                 type: "doc",
-                label: "Basic",
+                label: "Rules & Information",
                 docId: "intro",
               },
               {
@@ -143,77 +155,7 @@ const config = {
         ],
       },
       footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Info",
-            items: [
-              {
-                label: "Basics",
-                href: "/docs/intro",
-              },
-              {
-                label: "FAQs",
-                to: "/docs/faqs",
-              },
-              {
-                label: "Nominations Sheet",
-                href: "https://docs.google.com/spreadsheets/d/1ruHKiXgFvfz54Q5m1K7wIMvVpbfI5k-_dk5mvxr9Sv8/edit?usp=sharingg",
-              },
-              {
-                label: "Requests",
-                href: "https://autoao3app.fandom.tools/#/arlathanxchange2023/all",
-              },
-            ],
-          },
-          {
-            title: "Tutorials",
-            items: [
-              {
-                label: "How to Nominate",
-                to: "/docs/tutorials/nominate",
-              },
-              {
-                label: "How to Sign-Up",
-                to: "/docs/tutorials/signups",
-              },
-              {
-                label: "On Exchange Letters",
-                to: "/docs/tutorials/letters",
-              },
-              {
-                label: "How to Filter the AutoAO3 App",
-                to: "/docs/tutorials/autoao3",
-              },
-            ],
-          },
-          {
-            title: "Contact",
-            items: [
-              {
-                label: "Tumblr Ask",
-                to: "https://arlathanxchange.tumblr.com/ask",
-              },
-              {
-                href: "https://discord.gg/F73NDYMeGC",
-                label: "Discord",
-              },
-              {
-                label: "arlathanxchange@gmail.com",
-                href: "mailto: arlathanxchange@gmail.com",
-              },
-            ],
-          },
-          {
-            title: "Mods",
-            items: [
-              {
-                html: '<div class="avatar"><img class="avatar__photo avatar__photo--sm" src="/img/enig.png" /> <div class="avatar__intro"><div class="avatar__name">enigmalea</div><small class="avatar__subtitle"><a href="http://twitter.com/enigmaleaDA" class="footer__link-item"><i class="fa-brands fa-twitter"></i></a> <a href="http://enigmalea.tumblr.com" class="footer__link-item"><i class="fa-brands fa-tumblr"></i></a></small></div></div><div class="avatar"><img class="avatar__photo avatar__photo--sm" src="/img/fox.png" /> <div class="avatar__intro"><div class="avatar__name">foxinboots</div><small class="avatar__subtitle"><a href="http://twitter.com/TheFoxInBoots" class="footer__link-item"><i class="fa-brands fa-twitter"></i></a> <a href="http://thefoxinboots.tumblr.com" class="footer__link-item"><i class="fa-brands fa-tumblr"></i></a></small></div></div>',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Arlathan eXchange. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ${copyright}`,
       },
       prism: {
         theme: lightTheme,
