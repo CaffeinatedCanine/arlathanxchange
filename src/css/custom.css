@@ -11,9 +11,12 @@
 @font-face {
   font-family: "AO3";
   src: url("/AO3.eot");
-  src: url("/AO3.eot?#iefix") format("embedded-opentype"),
-    url("/AO3.woff") format("woff"), url("/AO3.woff2") format("woff2"),
-    url("/AO3.ttf") format("truetype"), url("/AO3.svg") format("svg");
+  src:
+    url("/AO3.eot?#iefix") format("embedded-opentype"),
+    url("/AO3.woff") format("woff"),
+    url("/AO3.woff2") format("woff2"),
+    url("/AO3.ttf") format("truetype"),
+    url("/AO3.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -32,8 +35,8 @@
   --ifm-color-primary-light: #014972;
   --ifm-color-primary-lighter: #014c78;
   --ifm-color-primary-lightest: #015687;
-  --ifm-background-color: #FDF7F5;
-  --ifm-dropdown-background-color: #18345E;
+  --ifm-background-color: #fdf7f5;
+  --ifm-dropdown-background-color: #18345e;
   --ifm-font-color-base: #0e062c;
   --ifm-blockquote-color: #5a475f;
   --ifm-link-color: var(--ifm-color-primary);
@@ -72,9 +75,9 @@ html[data-theme="dark"] {
   --ifm-color-primary-light: #ffd762;
   --ifm-color-primary-lighter: #ffdb72;
   --ifm-color-primary-lightest: #ffe7a2;
-  --ifm-background-color: #0F0632;
-  --ifm-dropdown-background-color: #18345E;
-  --ifm-font-color-base: #FBE7E3;
+  --ifm-background-color: #0f0632;
+  --ifm-dropdown-background-color: #18345e;
+  --ifm-font-color-base: #fbe7e3;
   --ifm-blockquote-color: #dce2e3;
   --ifm-link-color: var(--ifm-color-primary);
   --ifm-link-hover-color: #e2cabd;
@@ -151,7 +154,7 @@ html[data-theme="light"] .footer,
 html[data-theme="light"] .navbar,
 html[data-theme="dark"] .navbar-sidebar,
 html[data-theme="light"] .navbar-sidebar {
-  background-color: #18345E;
+  background-color: #18345e;
 }
 
 /* Adds icons to navbar */

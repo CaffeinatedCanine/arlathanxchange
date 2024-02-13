@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import styles from '../pages/index.module.css';
+import styles from "../pages/index.module.css";
 
 function Countdown() {
   const calculateTimeLeft = () => {
@@ -44,7 +44,14 @@ function Countdown() {
   return (
     <div className={styles.countdown}>
       <h1>See you again in 2024 for Arlathan eXchange!</h1>
-	  <b>Join us for <a href="https://dapolyshipping.neocities.org">DA Poly Exchange</a> in Fall 2023<br />or join us at <a href="https://thehangedmanpub.netlify.app/">The Hanged Man!</a></b>
+      <b>
+        Join us for{" "}
+        <a href="https://dapolyshipping.neocities.org">DA Poly Exchange</a> in
+        Fall 2023
+        <br />
+        or join us at{" "}
+        <a href="https://thehangedmanpub.netlify.app/">The Hanged Man!</a>
+      </b>
       {/* <b>{timerComponents.length ? timerComponents : <span>Now!</span>}</b> */}
     </div>
   );
