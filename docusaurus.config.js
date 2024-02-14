@@ -28,6 +28,7 @@ const config = {
         docs: {
           breadcrumbs: false,
           sidebarPath: require.resolve("./sidebars.js"),
+          sidebarCollapsed: false,
         },
         blog: {
           blogTitle: "Announcements",
@@ -156,6 +157,16 @@ const config = {
       },
       footer: {
         copyright: `Copyright © ${new Date().getFullYear()} ${copyright}`,
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
+      colorMode: {
+        defaultMode: "light",
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
       },
       prism: {
         theme: lightTheme,
