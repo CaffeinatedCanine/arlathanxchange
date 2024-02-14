@@ -31,5 +31,6 @@ To develop locally:
 5. Open a pull request.
 
 > **Note**
-In order to start the development server to see your changes locally,
-run `yarn start`.
+
+In order to start the development server to see your changes locally, run
+`yarn start`.
