@@ -73,12 +73,12 @@ const config = {
                 label: "FAQs",
                 docId: "faqs",
               },
-							{
+              {
                 type: "doc",
                 label: "Treats & Treatless FAQs",
                 docId: "treats",
               },
-							{
+              {
                 label: "Mod Team & Philosophy",
                 href: "/mod",
               },
@@ -136,7 +136,7 @@ const config = {
                 label: "Keeping It Anon",
                 docId: "tutorials/anon",
               },
-							{
+              {
                 type: "doc",
                 label: "AO3 & Non-Fanfic Works",
                 docId: "tutorials/media",
