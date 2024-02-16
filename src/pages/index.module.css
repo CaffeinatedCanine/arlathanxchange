@@ -4,18 +4,18 @@
  */
 
 .banner {
-	display: block;
-	margin: 0 auto;
-	width: var(--ifm-container-width-xl);
-	max-width: 95vw;
-	padding-top: 30px;
+  display: block;
+  margin: 0 auto;
+  width: var(--ifm-container-width-xl);
+  max-width: 95vw;
+  padding-top: 30px;
 }
 
 .countdown {
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-	margin: 30px auto;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin: 30px auto;
 }
 
 .index_hr {
@@ -25,24 +25,24 @@
 }
 
 .form {
-	display: block;
-	margin: 10px auto;
+  display: block;
+  margin: 10px auto;
 }
 
 html[data-theme="dark"] .form {
-		filter: invert(77%) hue-rotate(95deg);
+  filter: invert(77%) hue-rotate(95deg);
 }
 
 @media screen and (max-width: 990px) {
-	h1 {
-		font-size: 1.902em;
-	}
+  h1 {
+    font-size: 1.902em;
+  }
 
-	.countdown {
-		max-width: 80vw;
-	}
+  .countdown {
+    max-width: 80vw;
+  }
 
-	.form {
-		max-width: 90vw;
-	}
+  .form {
+    max-width: 90vw;
+  }
 }
