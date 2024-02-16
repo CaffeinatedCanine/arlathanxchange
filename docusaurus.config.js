@@ -16,7 +16,7 @@ const config = {
   url: "https://arlathanxchange.neocities.org",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenMarkdownLinks: "throw",
   favicon: "img/icon.png",
   titleDelimiter: "|",
   plugins: [require.resolve("docusaurus-plugin-image-zoom")],
@@ -37,7 +37,7 @@ const config = {
           showReadingTime: true,
           feedOptions: {
             type: "all",
-            copyright: `Copyright © ${new Date().getFullYear()} Arlathan eXchange`,
+            copyright: `Copyright © ${new Date().getFullYear()} ${copyright}`,
           },
         },
         theme: {
@@ -73,22 +73,31 @@ const config = {
                 label: "FAQs",
                 docId: "faqs",
               },
-              {
-                label: "2023 Tag Set",
-                href: "https://archiveofourown.org/tag_sets/14455",
+							{
+                type: "doc",
+                label: "Treats & Treatless FAQs",
+                docId: "treats",
               },
-              {
-                label: "2023 Nominations Sheet",
-                href: "https://docs.google.com/spreadsheets/d/1ruHKiXgFvfz54Q5m1K7wIMvVpbfI5k-_dk5mvxr9Sv8/edit?usp=sharing",
+							{
+                label: "Mod Team & Philosophy",
+                href: "/mod",
               },
-              {
-                label: "2023 AutoAO3: Requests",
-                href: "https://autoao3app.fandom.tools/#/arlathanxchange2023/all",
-              },
-              {
-                label: "Request an Extension",
-                href: "/extension",
-              },
+              // {
+              //   label: "2023 Tag Set",
+              //   href: "https://archiveofourown.org/tag_sets/14455",
+              // },
+              // {
+              //   label: "2023 Nominations Sheet",
+              //   href: "https://docs.google.com/spreadsheets/d/1ruHKiXgFvfz54Q5m1K7wIMvVpbfI5k-_dk5mvxr9Sv8/edit?usp=sharing",
+              // },
+              // {
+              //   label: "2023 AutoAO3: Requests",
+              //   href: "https://autoao3app.fandom.tools/#/arlathanxchange2023/all",
+              // },
+              // {
+              //   label: "Request an Extension",
+              //   href: "/extension",
+              // },
             ],
           },
           {
@@ -130,29 +139,68 @@ const config = {
             ],
           },
           {
-            href: "https://archiveofourown.org/collections/arlathanxchange2023/profile",
+            type: "dropdown",
             position: "left",
             label: "AO3",
             className: "ao3",
+            items: [
+              {
+                label: "Parent Collection",
+                href: "https://archiveofourown.org/collections/arlathanxchange/profile",
+                className: "ao3",
+              },
+              {
+                label: "2023 Collection",
+                href: "https://archiveofourown.org/collections/arlathanxchange2023/profile",
+                className: "ao3",
+              },
+              {
+                label: "2022 Collection",
+                href: "https://archiveofourown.org/collections/arlathanxchange2022/profile",
+                className: "ao3",
+              },
+            ],
           },
           {
-            href: "https://arlathanxchange.tumblr.com",
+            type: "dropdown",
+            label: "Follow Us",
             position: "left",
-            label: "Tumblr",
-            className: "tumblr",
+            className: "follow",
+            items: [
+              {
+                href: "https://arlathanxchange.tumblr.com",
+                label: "Tumblr",
+                className: "tumblr",
+              },
+              {
+                href: "https://twitter.com/ArlathanXchange",
+                label: "Twitter",
+                className: "twitter",
+              },
+              {
+                href: "https://discord.gg/F73NDYMeGC",
+                label: "Discord",
+                className: "discord",
+              },
+            ],
           },
-          {
-            href: "https://twitter.com/ArlathanXchange",
-            position: "left",
-            label: "Twitter",
-            className: "twitter",
-          },
-          {
-            href: "https://discord.gg/F73NDYMeGC",
-            position: "left",
-            label: "Discord",
-            className: "discord",
-          },
+          // {
+          //   type: "dropdown",
+          //   label: "Announcements",
+          //   position: "left",
+          //   className: "blog",
+          //   items: [
+          //     {
+          //       label: "View",
+          //       href: "/blog",
+          //     },
+          //     {
+          //       label: "Follow via RSS",
+          //       href: "/blog/rss.xml",
+          //       className: "rss",
+          //     },
+          //   ],
+          // },
         ],
       },
       footer: {
@@ -181,8 +229,8 @@ const config = {
       zoom: {
         selector: ".markdown img",
         background: {
-          light: "rgb(255, 255, 255, 0.75)",
-          dark: "rgba(0, 0, 0, 0.75)",
+          light: "rgba(253, 247, 245, 0.75)",
+          dark: "rgba(15, 6, 50, 0.75)",
         },
       },
     }),
