@@ -36,7 +36,7 @@
   --ifm-color-primary-lighter: #014c78;
   --ifm-color-primary-lightest: #015687;
   --ifm-background-color: #fdf7f5;
-	--ifm-card-background-color: transparent;
+  --ifm-card-background-color: transparent;
   --ifm-dropdown-background-color: #18345e;
   --ifm-font-color-base: #0e062c;
   --ifm-blockquote-color: #5a475f;
@@ -154,13 +154,13 @@ html[data-theme="light"] .navbar-sidebar {
 }
 
 .footer__copyright a {
-	color: var(--ifm-navbar-link-hover-color);
+  color: var(--ifm-navbar-link-hover-color);
 }
 
 .footer__copyright a:hover {
-	color: var(--ifm-navbar-link-color);
-	background: transparent;
-	text-decoration: underline;
+  color: var(--ifm-navbar-link-color);
+  background: transparent;
+  text-decoration: underline;
 }
 
 /* Adds icons to navbar */
@@ -177,20 +177,20 @@ html[data-theme="light"] .navbar-sidebar {
 }
 
 .ao3::before {
-	display: inline-block;
-	vertical-align: baseline;
-	height: 16px;
-	width: 16px;
+  display: inline-block;
+  vertical-align: baseline;
+  height: 16px;
+  width: 16px;
   font-family: "AO3";
   content: "A";
-	font-size: 1.3em;
-	padding-right: 5px;
+  font-size: 1.3em;
+  padding-right: 5px;
 }
 
 .follow::before {
-	font: var(--fa-font-solid);
-	content: "\f234";
-	padding-right: 5px;
+  font: var(--fa-font-solid);
+  content: "\f234";
+  padding-right: 5px;
 }
 
 .blog::before {
@@ -392,34 +392,34 @@ i.no-padding {
 
 /* Mod Page Styling */
 .mods {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	gap: 35px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 35px;
 }
 
 @media screen and (max-width: 810px) {
-	.mods {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 35px;
-	}
+  .mods {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+  }
 }
 
 @media screen and (max-width: 545px) {
-	.mods {
-		display: grid;
-		grid-template-columns: 1fr;
-		gap: 35px;
-	}
+  .mods {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
 }
 
 .avatar__subtitle {
- display: flex;
- column-gap: 10px;
- padding-top: 0px !important;
- margin: 0px;
+  display: flex;
+  column-gap: 10px;
+  padding-top: 0px !important;
+  margin: 0px;
 }
 
 .mod__name {
-	color: var(--ifm-font-color-base);
+  color: var(--ifm-font-color-base);
 }
