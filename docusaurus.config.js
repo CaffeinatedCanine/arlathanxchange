@@ -136,6 +136,11 @@ const config = {
                 label: "Keeping It Anon",
                 docId: "tutorials/anon",
               },
+							{
+                type: "doc",
+                label: "AO3 & Non-Fanfic Works",
+                docId: "tutorials/media",
+              },
             ],
           },
           {
