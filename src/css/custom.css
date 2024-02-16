@@ -36,6 +36,7 @@
   --ifm-color-primary-lighter: #014c78;
   --ifm-color-primary-lightest: #015687;
   --ifm-background-color: #fdf7f5;
+	--ifm-card-background-color: transparent;
   --ifm-dropdown-background-color: #18345e;
   --ifm-font-color-base: #0e062c;
   --ifm-blockquote-color: #5a475f;
@@ -103,11 +104,6 @@ html[data-theme="dark"] {
   --ifm-navbar-link-hover-color: var(--ifm-link-color);
 }
 
-.footer--dark {
-  --ifm-footer-link-color: #e3e3e3;
-  --ifm-footer-link-hover-color: #ffcf42;
-}
-
 /* Announcement bar styling */
 .close {
   color: #e3e3e3;
@@ -157,6 +153,16 @@ html[data-theme="light"] .navbar-sidebar {
   background-color: #18345e;
 }
 
+.footer__copyright a {
+	color: var(--ifm-navbar-link-hover-color);
+}
+
+.footer__copyright a:hover {
+	color: var(--ifm-navbar-link-color);
+	background: transparent;
+	text-decoration: underline;
+}
+
 /* Adds icons to navbar */
 .info::before {
   font: var(--fa-font-solid);
@@ -171,14 +177,37 @@ html[data-theme="light"] .navbar-sidebar {
 }
 
 .ao3::before {
+	display: inline-block;
+	vertical-align: baseline;
+	height: 16px;
+	width: 16px;
   font-family: "AO3";
-  font-size: 1.3em;
   content: "A";
+	font-size: 1.3em;
+	padding-right: 5px;
+}
+
+.follow::before {
+	font: var(--fa-font-solid);
+	content: "\f234";
+	padding-right: 5px;
+}
+
+.blog::before {
+  font: var(--fa-font-solid);
+  content: "\f0a1";
+  padding-right: 5px;
 }
 
 .discord::before {
   font: var(--fa-font-brands);
   content: "\f392";
+  padding-right: 5px;
+}
+
+.rss::before {
+  font: var(--fa-font-solid);
+  content: "\f09e";
   padding-right: 5px;
 }
 
@@ -197,23 +226,19 @@ html[data-theme="light"] .navbar-sidebar {
 .info,
 .tutorial,
 .ao3,
+.follow,
+.blog,
 .discord,
+.rss,
 .tumblr,
 .twitter {
   justify-content: flex-start;
   align-items: center;
 }
 
-/* Link stylings */
-a:hover {
-  background-color: var(--ifm-link-hover-color);
-  color: var(--ifm-background-color);
-}
-
 a.navbar__brand,
 a.menu__link,
 a.navbar__link,
-a.footer__link-item,
 a.hash-link,
 a.table-of-contents__link,
 a.pagination-nav__link,
@@ -273,7 +298,7 @@ em {
 strong,
 b {
   font-family: "Poiret One", serif;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   letter-spacing: 0.15rem;
   color: var(--ifm-link-hover-color);
 }
@@ -320,24 +345,6 @@ b {
   color: unset;
 }
 
-/* ModList Styling */
-.avatar {
-  margin-bottom: 5px;
-}
-
-.avatar__name,
-.avatar__subtitle {
-  padding: 0px;
-  margin: 0px;
-  line-height: normal;
-  font-weight: normal;
-}
-
-.avatar__subtitle {
-  display: flex;
-  flex-direction: row;
-}
-
 i.fa-brands {
   padding-right: 5px;
 }
@@ -381,4 +388,38 @@ i.no-padding {
 
 .close {
   color: #3d3d3d;
+}
+
+/* Mod Page Styling */
+.mods {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 35px;
+}
+
+@media screen and (max-width: 810px) {
+	.mods {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 35px;
+	}
+}
+
+@media screen and (max-width: 545px) {
+	.mods {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 35px;
+	}
+}
+
+.avatar__subtitle {
+ display: flex;
+ column-gap: 10px;
+ padding-top: 0px !important;
+ margin: 0px;
+}
+
+.mod__name {
+	color: var(--ifm-font-color-base);
 }
