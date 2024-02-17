@@ -189,23 +189,23 @@ const config = {
               },
             ],
           },
-          // {
-          //   type: "dropdown",
-          //   label: "Announcements",
-          //   position: "left",
-          //   className: "blog",
-          //   items: [
-          //     {
-          //       label: "View",
-          //       href: "/blog",
-          //     },
-          //     {
-          //       label: "Follow via RSS",
-          //       href: "/blog/rss.xml",
-          //       className: "rss",
-          //     },
-          //   ],
-          // },
+          {
+            type: "dropdown",
+            label: "Announcements",
+            position: "left",
+            className: "blog",
+            items: [
+              {
+                label: "View",
+                href: "/blog",
+              },
+              {
+                label: "Follow via RSS",
+                href: "https://arlathanxchange.neocities.org/blog/rss.xml",
+                className: "rss",
+              },
+            ],
+          },
         ],
       },
       footer: {
