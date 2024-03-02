@@ -24,13 +24,18 @@
   background-color: var(--ifm-color-primary);
 }
 
+.note {
+	margin: 10px auto 0px;
+	width: fit-content;
+}
+
 .form {
   display: block;
   margin: 10px auto;
 }
 
 html[data-theme="dark"] .form {
-  filter: invert(77%) hue-rotate(95deg);
+  filter: invert(85%);
 }
 
 @media screen and (max-width: 990px) {
