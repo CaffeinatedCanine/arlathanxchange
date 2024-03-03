@@ -138,7 +138,7 @@ const config = {
 								href: "https://archiveofourown.org/collections/arlathanxchange2024/profile",
 							},
               {
-                label: "2024 Tag Set",
+                label: "Nominate Tags Here",
                 href: "https://archiveofourown.org/tag_sets/18841",
               },
               {
