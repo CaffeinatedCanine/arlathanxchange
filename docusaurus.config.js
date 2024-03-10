@@ -131,12 +131,12 @@ const config = {
             type: "dropdown",
             position: "left",
             label: "2024 Exchange",
-						className: "exchange",
+            className: "exchange",
             items: [
-							{
-								label: "2024 AO3 Profile",
-								href: "https://archiveofourown.org/collections/arlathanxchange2024/profile",
-							},
+              {
+                label: "2024 AO3 Profile",
+                href: "https://archiveofourown.org/collections/arlathanxchange2024/profile",
+              },
               {
                 label: "Nominate Tags Here",
                 href: "https://archiveofourown.org/tag_sets/18841",
@@ -145,7 +145,7 @@ const config = {
                 label: "Sign-Up Here",
                 href: "https://archiveofourown.org/collections/arlathanxchange2024/signups/new",
               },
-							{
+              {
                 label: "2024 Nominations Sheet",
                 href: "https://docs.google.com/spreadsheets/d/1m8ludsrYnkbuI-kbJLz0anjSFhuYUkiAft4NZhp1aOM/edit?usp=sharing",
               },
@@ -153,10 +153,10 @@ const config = {
                 label: "2024 AutoAO3: Requests",
                 href: "https://autoao3app.fandom.tools/#/arlathanxchange2024/all",
               },
-							{
-								label: "2024 Treatless List",
-								href: "https://docs.google.com/spreadsheets/d/1Zq3otHMwB3bmuJE0_MrgmDWHXluc5nSTkSG7t5d9aww/edit?usp=sharing"
-							},
+              {
+                label: "2024 Treatless List",
+                href: "https://docs.google.com/spreadsheets/d/1Zq3otHMwB3bmuJE0_MrgmDWHXluc5nSTkSG7t5d9aww/edit?usp=sharing",
+              },
               {
                 label: "Request an Extension",
                 href: "/extension",
