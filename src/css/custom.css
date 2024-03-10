@@ -223,9 +223,9 @@ html[data-theme="light"] .navbar-sidebar {
   padding-right: 5px;
 }
 
-.twitter::before {
-  font: var(--fa-font-brands);
-  content: "\f099";
+.bluesky::before {
+  font: var(--fa-font-solid);
+  content: "\f6c4";
   padding-right: 5px;
 }
 
@@ -238,7 +238,7 @@ html[data-theme="light"] .navbar-sidebar {
 .exchange,
 .rss,
 .tumblr,
-.twitter {
+.bluesky {
   justify-content: flex-start;
   align-items: center;
 }
