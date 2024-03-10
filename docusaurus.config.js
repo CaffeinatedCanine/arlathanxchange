@@ -198,9 +198,9 @@ const config = {
                 className: "tumblr",
               },
               {
-                href: "https://twitter.com/ArlathanXchange",
-                label: "Twitter",
-                className: "twitter",
+                href: "https://bsky.app/profile/arlathanxchange.bsky.social",
+                label: "Bluesky",
+                className: "bluesky",
               },
               {
                 href: "https://discord.gg/F73NDYMeGC",
