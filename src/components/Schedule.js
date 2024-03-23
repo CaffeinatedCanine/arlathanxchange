@@ -17,13 +17,19 @@ export default function Schedule() {
   return (
     <ul>
       <li>
-        <strong>Nominations Open: </strong> {nominationsOpen}
+        <s>
+          <strong>Nominations Open: </strong> {nominationsOpen}
+        </s>
       </li>
       <li>
-        <strong>Nominations Close: </strong> {nominationsClose}
+        <s>
+          <strong>Nominations Close: </strong> {nominationsClose}
+        </s>
       </li>
       <li>
-        <strong>Sign-Ups Open: </strong> {signUpsOpen}
+        <s>
+          <strong>Sign-Ups Open: </strong> {signUpsOpen}
+        </s>
       </li>
       <li>
         <strong>Sign-Ups Close: </strong> {signUpsClose}
