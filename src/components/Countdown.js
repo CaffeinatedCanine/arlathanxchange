@@ -4,7 +4,7 @@ import styles from "../pages/index.module.css";
 
 function Countdown() {
   const calculateTimeLeft = () => {
-    const difference = +new Date(`2024-04-07T12:00:00-04:00`) - +new Date();
+    const difference = +new Date(`2024-05-19T12:00:00-04:00`) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -42,7 +42,7 @@ function Countdown() {
   });
   return (
     <div className={styles.countdown}>
-      <h2>Sign-Ups Close:</h2>
+      <h2>Assignments Due:</h2>
       <b>{timerComponents.length ? timerComponents : <span>Now!</span>}</b>
     </div>
   );
