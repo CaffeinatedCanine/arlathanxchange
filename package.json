@@ -1,0 +1,47 @@
+{
+  "name": "arlathanxchange",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "npx eslint .",
+    "format": "npx prettier . --write"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/react": "^4.2.1",
+    "@astrojs/starlight": "^0.32.2",
+    "@fontsource-variable/darker-grotesque": "^5.2.5",
+    "@fontsource-variable/josefin-slab": "^5.2.5",
+    "@fujocoded/zod-transform-socials": "^0.0.11",
+    "@iconify-json/lucide": "^1.2.28",
+    "@iconify-json/simple-icons": "^1.2.27",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "astro": "^5.4.2",
+    "astro-favicons": "^3.1.5",
+    "astro-icon": "^1.1.5",
+    "astro-meta-tags": "^0.3.1",
+    "astro-robots-txt": "^1.0.0",
+    "dayjs": "^1.11.13",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sharp": "^0.33.5",
+    "starlight-image-zoom": "^0.11.1",
+    "starlight-links-validator": "^0.14.3",
+    "starlight-theme-flexoki": "^0.1.0",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "eslint-plugin-astro": "^1.3.1",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "prettier": "^3.5.3",
+    "prettier-plugin-astro": "^0.14.1",
+    "typescript-eslint": "^8.26.0"
+  }
+}
