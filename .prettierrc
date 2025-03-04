@@ -1,9 +1,24 @@
 {
-  "trailingComma": "es5",
-  "tabWidth": 2,
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
   "printWidth": 80,
   "proseWrap": "always",
+  "quoteProps": "as-needed",
   "semi": true,
   "singleQuote": false,
-  "plugins": []
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+
+  "plugins": ["prettier-plugin-astro"],
+  "overrides": [
+    {
+      "files": "*.astro",
+      "options": {
+        "parser": "astro"
+      }
+    }
+  ]
 }

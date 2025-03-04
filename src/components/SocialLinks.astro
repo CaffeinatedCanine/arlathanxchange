@@ -1,0 +1,15 @@
+---
+import Default from "@astrojs/starlight/components/SocialIcons.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<a href="https://arlathanxchange.tumblr.com"
+  ><Icon name="simple-icons:tumblr" /></a
+>
+<Default><slot /></Default>
+
+<style>
+  [data-icon] {
+    color: var(--sl-color-text-accent);
+  }
+</style>
