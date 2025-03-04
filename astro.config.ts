@@ -27,6 +27,7 @@ export default defineConfig({
       logo: {
         src: "/public/favicon.svg",
       },
+      pagefind: false,
       social: {
         blueSky: "https://bsky.app/profile/arlathanxchange.bsky.social",
         discord: "https://discord.gg/F73NDYMeGC",
