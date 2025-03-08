@@ -1,16 +1,16 @@
 import dayjs from "dayjs";
+import exchange from "../config/exchange.json";
 import localizedFormat from "dayjs/plugin/localizedFormat";
-
 dayjs.extend(localizedFormat);
 
-const nominationsOpen = dayjs.unix(1742140800).format("LLLL");
-const nominationsClose = dayjs.unix(1743350400).format("LLLL");
-const signUpsOpen = dayjs.unix(1743350400).format("LLLL");
-const signUpsClose = dayjs.unix(1744560000).format("LLLL");
-const assignments = dayjs.unix(1744761600).format("LLLL");
-const worksDue = dayjs.unix(1748188800).format("LLLL");
-const worksRevealed = dayjs.unix(1748793600).format("LLLL");
-const creatorsRevealed = dayjs.unix(1749398400).format("LLLL");
+const nominationsOpen = dayjs.unix(exchange.nominationsOpen).format("LLLL");
+const nominationsClose = dayjs.unix(exchange.nominationsClose).format("LLLL");
+const signUpsOpen = dayjs.unix(exchange.signUpsOpen).format("LLLL");
+const signUpsClose = dayjs.unix(exchange.signUpsClose).format("LLLL");
+const assignments = dayjs.unix(exchange.assignments).format("LLLL");
+const worksDue = dayjs.unix(exchange.worksDue).format("LLLL");
+const worksRevealed = dayjs.unix(exchange.worksRevealed).format("LLLL");
+const creatorsRevealed = dayjs.unix(exchange.creatorsRevealed).format("LLLL");
 
 export default function Schedule() {
   return (
