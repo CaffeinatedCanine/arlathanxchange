@@ -48,9 +48,15 @@ export default function Countdown() {
 
       if (difference > 0) {
         timeLeft = {
-          days: Math.floor(difference / (1000 * 60 * 60 * 24)).toString().padStart(2, "0"),
-          hours: Math.floor((difference / (1000 * 60 * 60)) % 24).toString().padStart(2, "0"),
-          minutes: Math.floor((difference / 1000 / 60) % 60).toString().padStart(2, "0"),
+          days: Math.floor(difference / (1000 * 60 * 60 * 24))
+            .toString()
+            .padStart(2, "0"),
+          hours: Math.floor((difference / (1000 * 60 * 60)) % 24)
+            .toString()
+            .padStart(2, "0"),
+          minutes: Math.floor((difference / 1000 / 60) % 60)
+            .toString()
+            .padStart(2, "0"),
         };
       }
 
@@ -67,13 +73,15 @@ export default function Countdown() {
 
     const timerComponents: ReactNode[] = [];
 
-    (Object.keys(timeLeft)as Array<keyof typeof timeLeft>).forEach((interval) => {
-      timerComponents.push(
-        <span>
-          {timeLeft[interval]} {interval}{" "}
-        </span>
-      );
-    });
+    (Object.keys(timeLeft) as Array<keyof typeof timeLeft>).forEach(
+      (interval) => {
+        timerComponents.push(
+          <span>
+            {timeLeft[interval]} {interval}{" "}
+          </span>
+        );
+      }
+    );
     return (
       <div className="countdown" style={{ paddingTop: 20 }}>
         <h2 key={nextDeadline.id}>{nextDeadline!.label}</h2>
@@ -84,8 +92,11 @@ export default function Countdown() {
     return (
       <div style={{ paddingTop: 20 }}>
         <b>
-        Join us for <a href="https://dapolyshipping.neocities.org">DA Polyshipping</a> in Fall or join us at <a href="https://thehangedman.club/">The Hanged Man!</a>
-      </b>
+          Join us for{" "}
+          <a href="https://dapolyshipping.neocities.org">DA Polyshipping</a> in
+          Fall or join us at{" "}
+          <a href="https://thehangedman.club/">The Hanged Man!</a>
+        </b>
       </div>
     );
   }
