@@ -16,9 +16,9 @@ compiled a list of potential options for you, based on media type.
 
 - [Squidge Images](https://images.squidge.org/)
 
-**NSFW Safe**, Does Not Allow Loli/Shota
+  **NSFW Safe**, Does Not Allow Loli/Shota
 
-[Squidge.org](https://squidge.org/) has been hosting various fandom endeavors
+  [Squidge.org](https://squidge.org/) has been hosting various fandom endeavors
 from mailing lists to websites and more since 1994. Squidge is open for all
 fandom uses and allows NSFW fannish content.
 
@@ -29,17 +29,17 @@ alternatives to Squidge._
 
 - [Catbox.moe](https://catbox.moe)
 
-**NSFW Safe**, **Safe for most fannish/non-commercial uses**
+  **NSFW Safe**, **Safe for most fannish/non-commercial uses**
 
-Cannot be used for commercial uses or for video that will be embedded on other
+  Cannot be used for commercial uses or for video that will be embedded on other
 sites. Should be fine to embed images for display on AO3, but I would not upload
 commissions sheets, etc.
 
 - [MediaFire](https://www.mediafire.com/)
 
-Not NSFW Safe, Has Copyright Infringement Provisions
+  Not NSFW Safe, Has Copyright Infringement Provisions
 
-MediaFire has been recommended by other artists/exchanges and may be safe for
+  MediaFire has been recommended by other artists/exchanges and may be safe for
 use on AO3. We are not currently aware of any issues using MediaFire; however,
 you should be aware that their Terms of Service have a strong
 anti-pornographic/obscenity stance and also copyright infringement provisions.
@@ -48,15 +48,15 @@ anti-pornographic/obscenity stance and also copyright infringement provisions.
 
 - [filegarden](https://filegarden.com/)
 
-Placing this in the iffy pile because there is no terms of service, faq,
+  Placing this in the iffy pile because there is no terms of service, faq,
 copyright information, privacy policy, or information on who owns and runs this
 site. It might be fine, but please use it at your own risk.
 
 - [Dropbox](https://dropbox.com)
 
-**Likely NSFW Friendly**, No Copyright Provisions
+  **Likely NSFW Friendly**, No Copyright Provisions
 
-Dropbox's Acceptable Use policy explicitly bans unlawful pornography and CSAM
+  Dropbox's Acceptable Use policy explicitly bans unlawful pornography and CSAM
 and there are no copyright or intellectual property rules listed which means it
 is likely safe for use for _most_ fannish images. However, there are very
 specific hoops to jump through to be able to embed images, and it may take some
@@ -66,45 +66,43 @@ experimentation to find the correct URL for the image.
 
 - [Neocities](https://neocities.org) (and other webhosts)
 
-Although free Neocities has a relatively generous 1GB storage, webhosts are
+  Although free Neocities has a relatively generous 1GB storage, webhosts are
 intended to be used for _websites_ and not for direct hotlinking. Hotlinking is
 when you directly link or embed an image or media file from one site to another
 site and impacts bandwidth usage. Simply put, all hosts have a limited amount of
 times they can or will serve certain data (including images) and hotlinking uses
 up that "time".
 
-It is possible by hotlinking to Neocities or other webhosts, you will use up
+  It is possible by hotlinking to Neocities or other webhosts, you will use up
 your (or their) bandwidth which will prevent them from serving (or being able to
 serve) the media you've embedded. Hotlinking is typically considered poor
 netiquette, even though it is _required_ by AO3.
 
-Although we absolutely recommend Neocities to host your sites (ours is here!),
+  Although we absolutely recommend Neocities to host your sites (ours is here!),
 we would discourage you from hotlinking from them as much as possible to ensure
 that they are able to remain around (and free!) for as long as possible!
 
-You can read up on
+  You can read up on
 [hotlinking](https://webmasters.stackexchange.com/questions/25315/hotlinking-what-is-it-and-why-shouldnt-people-do-it)
 and [bandwidth](https://www.lifewire.com/what-is-bandwidth-2625809) to
 understand a little more what we're talking about.
 
 - Other Social Media Accounts
 
-Due to the hotlinking issue mentioned above, and how frequently social media
+  Due to the hotlinking issue mentioned above, and how frequently social media
 sites change things in order to prevent hotlinking, it is not recommended that
 you use _any_ social media site as a host for your images. Although it may work
 _for now_, it is possible links may change or they may intentionally block
 hotlinking. This includes but is not limited to:
 
-- tumblr
-- Twitter
-- DeviantArt
-- Pillowfort
-- Instagram
-- Livejournal
-- Mastodon
-- Discord - _Please note for Discord in particular, they have made a recent
-  breaking change to their codebase which will cause external file hotlinking to
-  stop working very soon._
+    - tumblr
+    - Twitter
+    - DeviantArt
+    - Pillowfort
+    - Instagram
+    - Livejournal
+    - Mastodon
+    - Discord
 
 ### Do Not Use
 

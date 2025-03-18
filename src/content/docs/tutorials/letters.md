@@ -80,81 +80,84 @@ gifter can access it easily.
 
 - **Google Drive/gDocs**
 
-By far the most popular place to host exchange letters currently, particularly
-if you have lots of text or want to include things like images, but are not
-familiar with code. You can create
-[jump links or link to other docs and external sites](https://edu.gcfglobal.org/en/googledocuments/linking-within-a-document/1/),
-[add images](https://getproofed.com/writing-tips/how-to-add-and-format-images-in-google-docs/),
-make lists or tables, use templates, etc.
+  By far the most popular place to host exchange letters currently, particularly
+  if you have lots of text or want to include things like images, but are not
+  familiar with code. You can create
+  [jump links or link to other docs and external sites](https://edu.gcfglobal.org/en/googledocuments/linking-within-a-document/1/),
+  [add images](https://getproofed.com/writing-tips/how-to-add-and-format-images-in-google-docs/),
+  make lists or tables, use templates, etc.
 
-Using Google can be especially helpful if you’re requesting fanart of an
-original character. Simply drop your OC refs into a gDrive folder along with
-your character’s profile, and grab the share link for the whole folder (**make
-sure to set to people with link can view ONLY**) to put into your sign-up form.
+  Using Google can be especially helpful if you’re requesting fanart of an
+  original character. Simply drop your OC refs into a gDrive folder along with
+  your character’s profile, and grab the share link for the whole folder (**make
+  sure to set to people with link can view ONLY**) to put into your sign-up
+  form.
 
 - **Tumblr**
 
-You can also drop your letter into a regular [tumblr](http://www.tumblr.com)
-post or page. If you would like to keep your letter off your mutuals’ dashes you
-can make the post private and then a few hours (or days) later make it public.
-It will not appear on their dash if they sort by popularity or by timeline
-unless it suddenly gets a lot of likes.
+  You can also drop your letter into a regular [tumblr](http://www.tumblr.com)
+  post or page. If you would like to keep your letter off your mutuals’ dashes
+  you can make the post private and then a few hours (or days) later make it
+  public. It will not appear on their dash if they sort by popularity or by
+  timeline unless it suddenly gets a lot of likes.
 
-:::caution
+  :::caution
 
-Please be cautious about using tumblr pages as there are issues with them
-working for mobile users; the Android tumblr app often redirects from a page
-back to the blog homepage not allowing people to see the page.
+  Please be cautious about using tumblr pages as there are issues with them
+  working for mobile users; the Android tumblr app often redirects from a page
+  back to the blog homepage not allowing people to see the page.
 
-:::
+  :::
 
-- **Dreamwidth/Wordpress/Other Blogging Site** Although not as widely used now
-  as tumblr, Dreamwidth is still around and you can post on this site for your
-  letter. Wordpress or other blogging sites like Blogger are not as popular for
-  fandom endeavors, but they can absolutely be used for a fandom letter, too.
+- **Dreamwidth/Wordpress/Other Blogging Site**
+
+  Although not as widely used now as tumblr, Dreamwidth is still around and you
+  can post on this site for your letter. Wordpress or other blogging sites like
+  Blogger are not as popular for fandom endeavors, but they can absolutely be
+  used for a fandom letter, too.
 
 * **Free Webhosts**
 
-If you're planning on reusing your letter, this can be a good option to make
-sure you don't lose it, particularly if you'd like to include images or other
-formatting. There are two main camps for free webhost: **No/Low Code** and
-**Coding Required**.
+  If you're planning on reusing your letter, this can be a good option to make
+  sure you don't lose it, particularly if you'd like to include images or other
+  formatting. There are two main camps for free webhost: **No/Low Code** and
+  **Coding Required**.
 
-- **No/Low Code**
+  - **No/Low Code**
 
-- https://sites.google.com - Google site builder. This is free as long as you
-  have a gmail account. Templates are basic, but it's quick and simple to build
-  a site with them.
+  - https://sites.google.com - Google site builder. This is free as long as you
+    have a gmail account. Templates are basic, but it's quick and simple to
+    build a site with them.
 
-- [Wix.com](https://www.wix.com) - Has a site builder, but you can do some
-  coding if you'd like. The disadvantge is that it forces a banner on your site
-  for a free plan.
+  - [Wix.com](https://www.wix.com) - Has a site builder, but you can do some
+    coding if you'd like. The disadvantge is that it forces a banner on your
+    site for a free plan.
 
-- [Weebly.com](https://www.weebly.com) - similar to wix above!
+  - [Weebly.com](https://www.weebly.com) - similar to wix above!
 
 - **Coding Required**
 
-- [Neocities](https://www.neocities.org) - an homage to the old school
-  geocities. We use them for the exchange website. They offer a large amount of
-  space and allow all content (including adult content).
+  - [Neocities](https://www.neocities.org) - an homage to the old school
+    geocities. We use them for the exchange website. They offer a large amount
+    of space and allow all content (including adult content).
 
-- [Netlify](https://www.netlify.com/) and [Vercel](https://vercel.com/) -
-  provide free webhosting with other benefits like automatic deployment from
-  Github. More complicated than is necessary for just an exchange letter but are
-  a great resource for anyone who has some coding knowledge and wants to build a
-  website.
+  - [Netlify](https://www.netlify.com/) and [Vercel](https://vercel.com/) -
+    provide free webhosting with other benefits like automatic deployment from
+    Github. More complicated than is necessary for just an exchange letter but
+    are a great resource for anyone who has some coding knowledge and wants to
+    build a website.
 
-* **Your AO3 Profile**
+- **Your AO3 Profile**
 
-_Exchange Letters are not allowed to be posted as separate works on AO3_;
-however, according to the
-[AO3 Content FAQ](https://archiveofourown.org/tos_faq#content_faq) (we recommend
-using CTRL+F to search for “letter” to find the right question) you can post
-general likes/preferences on your profile which means you could use this space
-for a general letter designed to be used in addition to your `Prompt` field.
-Although you can do this, we think one of the other options above is a better
-idea, as profile space is relatively limited.
+  _Exchange Letters are not allowed to be posted as separate works on AO3_;
+  however, according to the
+  [AO3 Content FAQ](https://archiveofourown.org/tos_faq#content_faq) (we
+  recommend using CTRL+F to search for “letter” to find the right question) you
+  can post general likes/preferences on your profile which means you could use
+  this space for a general letter designed to be used in addition to your
+  `Prompt` field. Although you can do this, we think one of the other options
+  above is a better idea, as profile space is relatively limited.
 
-We do ask that you do not post your letter as part of a separate work for this
-exchange since it is against AO3 rules. If we see that your letter is hosted on
-AO3 for the exchange, we'll ask you to move it somewhere else.
+  We do ask that you do not post your letter as part of a separate work for this
+  exchange since it is against AO3 rules. If we see that your letter is hosted
+  on AO3 for the exchange, we'll ask you to move it somewhere else.
