@@ -26,46 +26,46 @@ indication you would want to see more content from a character or ship.
    your tag nominations, click on the link to go to the tag set and then click
    the `Nominate` button on the top right.
 
-![AO3 Tag Set Page](../../../assets/images/nominate.png)
+   ![AO3 Tag Set Page](../../../assets/images/nominate.png)
 
 2. Enter _Dragon Age - All Media Types_ for your fandom selection. Enter one
    relationship per box. You can nominate up to 20 relationships. Please follow
    the below guidelines.
 
-:::note[Nomination Guidelines]
+   :::note[Nomination Guidelines]
 
-- **If there is a canonical tag that shows up as a suggestion for your
-  nomination please click to add it.**
-- For OC/PC characters (like the Warden, Hawke, or Inquisitor) please include a
-  gender, for example, `Male Hawke`. Nonbinary characters can be nominated using
-  Nonbinary in place of the gender.
-- **For Rook:** Please include gender and lineage and use canonical last names
-  to indicate faction. For example: `Nonbinary Dwarf De Riva`. You may indicate
-  you are open to other factions in your prompts/letters, but AO3 will match
-  using the last name provided.
-- For OCs which are not from in game backgrounds, use tags like
-  `Original Male Character(s)`, `Original Female Character(s)`, or
-  `Original Nonbinary Character(s)`. We would prefer these tags be as specific
-  as possible so if you have a role or race in mind you may use things like
-  `Original Male Elvhen Character(s)` or
-  `Original Female Templars Character(s)`.
-- Crossover ships are not allowed.
-- For a solo art piece or introspective/epistolary/character study fic, please
-  use `[Character Name] (Solo)`; for example: `Solas (Solo)`.
-- Please be sure to use AO3's basic ship guidelines:
-- '/' is to be used for romantic or sexual relationships. (Please use this for
-  queer platonic relationships as well.)
-- '&' is to be used for friendships.
+   - **If there is a canonical tag that shows up as a suggestion for your
+     nomination please click to add it.**
+   - For OC/PC characters (like the Warden, Hawke, or Inquisitor) please include
+     a gender, for example, `Male Hawke`. Nonbinary characters can be nominated
+     using Nonbinary in place of the gender.
+   - **For Rook:** Please include gender and lineage and use canonical last
+     names to indicate faction. For example: `Nonbinary Dwarf De Riva`. You may
+     indicate you are open to other factions in your prompts/letters, but AO3
+     will match using the last name provided.
+   - For OCs which are not from in game backgrounds, use tags like
+     `Original Male Character(s)`, `Original Female Character(s)`, or
+     `Original Nonbinary Character(s)`. We would prefer these tags be as
+     specific as possible so if you have a role or race in mind you may use
+     things like `Original Male Elvhen Character(s)` or
+     `Original Female Templars Character(s)`.
+   - Crossover ships are not allowed.
+   - For a solo art piece or introspective/epistolary/character study fic,
+     please use `[Character Name] (Solo)`; for example: `Solas (Solo)`.
+   - Please be sure to use AO3's basic ship guidelines:
+   - '/' is to be used for romantic or sexual relationships. (Please use this
+     for queer platonic relationships as well.)
+   - '&' is to be used for friendships.
 
-:::
+   :::
 
-![A tag with a canon ship option](../../../assets/images/canon.png)
+   ![A tag with a canon ship option](../../../assets/images/canon.png)
 
-![A tag with no canon ship option](../../../assets/images/nocanon.png)
+   ![A tag with no canon ship option](../../../assets/images/nocanon.png)
 
-![Demonstration of all nomination types](../../../assets/images/allnomtypes.png)
+   ![Demonstration of all nomination types](../../../assets/images/allnomtypes.png)
 
-3. Once you have nominated all the ships you would like to nominate, scroll to
+3. When you have nominated all the ships you would like to nominate, scroll to
    the bottom and click the `Submit` button.
 
 Once your nominations have been submitted, the mods will review to make sure if
