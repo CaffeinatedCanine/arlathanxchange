@@ -1,0 +1,131 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+---
+<StarlightPage frontmatter={{ title: 'Extension Request' }}>
+    <p>If you need an extension for your Arlathan eXchange Assignment, please complete the form below. Make sure to submit your request before the initial due date of the exchange.</p>
+    <p><b><u>Please note:</u></b> All assignments are due by 
+        <span class="relative group cursor-help font-semibold">
+            <span class="tooltip">
+              Time shown in your timezone
+              <span class="tooltip-arrow"></span>
+            </span>
+            <span class="dueTime" id="dueDate"></span>
+        </span>                                                   
+         on the assigned extension date. If an assignment misses the initial due date or the extension deadline, and we have not received any communication from the participant, the mods may assign it to a pinch hitter.</p>
+    <p>We will only use the method of communication you provide below to contact you about this request and follow-up if necessary. Your email or Discord handle will not be used for any other purpose and will be deleted from our records once the exchange is completed.</p>
+    <p><b><u>Important:</u></b> Your extension is not official until you receive confirmation from us!</p>
+        
+    <form id="extensionForm" method="POST" action="https://script.google.com/macros/s/AKfycbzF_yq03j0WDvrYj_q9i3YkPC7lrw6mA5vCxOfSGUsMRa6pNzhItAnfWbX0tNLxTo6z4g/exec">
+      <input type="hidden" id="fromWhere" name="fromWhere" value="website">
+      <input type="hidden" id="status" name="status" value="Not Contacted">
+  
+      <label for="preference">Preferred form of contact:</label>
+      <select id="preference" name="preference" required>
+        <option value="">Select</option>
+        <option value="Email">Email</option>
+        <option value="Discord">Discord</option>
+      </select>
+  
+      <label for="ao3">AO3 Handle:</label>
+      <input type="text" id="ao3" name="ao3" required>
+  
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="discord">Your Discord:</label>
+      <input type="text" id="discord" name="discord">
+  
+      <label for="extensionDate">Extension To:</label>
+      <input type="date" id="extensionDate" name="extensionDate" required>
+  
+      <button id="submitButton" type="submit">
+        <span id="buttonText">Submit</span>
+        <span id="buttonSpinner" class="hidden ml-2 animate-spin">⏳</span>
+      </button>      
+  
+    </form>
+  
+    <script>
+        const unixTimestamp = 1744664400 * 1000;
+const dueDate = new Date(unixTimestamp);
+document.getElementById("dueDate").innerText = dueDate.toLocaleTimeString("en-US", {
+  hour: 'numeric',
+  minute: '2-digit',
+  hour12: true
+});
+
+const form = document.getElementById('extensionForm');
+const preferenceSelect = document.getElementById('preference');
+const discordInput = document.getElementById('discord');
+const submitButton = document.getElementById('submitButton');
+const buttonText = document.getElementById("buttonText");
+const buttonSpinner = document.getElementById("buttonSpinner");
+
+const today = new Date().toISOString().split("T")[0];
+document.getElementById("extensionDate").setAttribute("min", today);
+
+function validateForm() {
+  if (preferenceSelect.value.toLowerCase() === 'discord') {
+    discordInput.setAttribute('required', 'required');
+  } else {
+    discordInput.removeAttribute('required');
+  }
+}
+
+preferenceSelect.addEventListener('change', validateForm);
+validateForm();
+
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  validateForm();
+
+  if (form.checkValidity()) {
+    submitButton.disabled = true;
+    buttonText.textContent = "Sending...";
+    buttonSpinner.classList.remove("hidden");  // Show spinner
+
+    const formData = new FormData(form);
+
+    // Remove any old response message
+    const existingMessage = document.getElementById('responseMessage');
+    if (existingMessage) {
+      existingMessage.remove();
+    }
+
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: new URLSearchParams(formData),
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        }
+      });
+
+      const result = await response.json();
+
+      const responseMessage = document.createElement('p');
+      responseMessage.id = 'responseMessage';
+      responseMessage.innerText = result.message || "Successfully submitted!";
+      responseMessage.classList.add('text-green-600');
+      form.appendChild(responseMessage);
+
+      form.reset();
+      discordInput.removeAttribute('required');
+    } catch (error) {
+      const responseMessage = document.createElement('p');
+      responseMessage.id = 'responseMessage';
+      responseMessage.innerText = 'An error occurred. Please try again.';
+      responseMessage.classList.add('text-red-600');
+      form.appendChild(responseMessage);
+    } finally {
+      submitButton.disabled = false;
+      buttonText.textContent = "Submit";
+      buttonSpinner.classList.add("hidden");  // Hide spinner again
+    }
+  } else {
+    form.reportValidity();
+  }
+});
+      </script>      
+  </StarlightPage>
+  
