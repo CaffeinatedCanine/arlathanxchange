@@ -1,4 +1,5 @@
 // @ts-check
+
 import { defineConfig } from "astro/config";
 import favicons from "astro-favicons";
 import icon from "astro-icon";
@@ -46,42 +47,41 @@ export default defineConfig({
         },
         {
           label: "Exchange Links",
-          items: [
-            {
-              label: "2025 Collection",
-              link: "https://archiveofourown.org/collections/arlathanxchange2025/profile",
-              badge: { text: "New", variant: "success" },
-            },
-            {
-              label: "Tag Nominations",
-              link: "https://archiveofourown.org/tag_sets/22804",
-              badge: { text: "New", variant: "success" },
-            },
-            {
-              label: "Sign-Ups",
-              link: "https://archiveofourown.org/collections/arlathanxchange2025/signups/new",
-              badge: { text: "New", variant: "success" },
-            },
-            {
-              label: "Nominations Spreadsheet",
-              link: "https://docs.google.com/spreadsheets/d/1Zmc8aIcyigZB0UE-5RYq60St5_Ia1JEXM5g_haABVG4/edit?usp=sharing",
-              badge: { text: "New", variant: "success" },
-            },
-            {
-              label: "AutoAO3App: Requests",
-              link: "https://autoao3app.fandom.tools/#/arlathanxchange2025/all?",
-              badge: { text: "New", variant: "success" },
-            },
-            {
-              label: "Treatless List",
-              link: "https://docs.google.com/spreadsheets/d/1eTkq2Hhj0h1Kd0daWslWuZozA13Vj5Cof8b2izG6tjQ/edit?usp=sharing",
-              badge: { text: "New", variant: "success" },
-            },
+          items: [            
+            //{
+            //  label: "Tag Nominations",
+            //  link: "https://archiveofourown.org/tag_sets/22804",
+            //  badge: { text: "New", variant: "success" },
+            //},
+            //{
+            //  label: "Sign-Ups",
+            //  link: "https://archiveofourown.org/collections/arlathanxchange2025/signups/new",
+            //  badge: { text: "New", variant: "success" },
+            //},
+            //{
+            //  label: "Nominations Spreadsheet",
+            //  link: "https://docs.google.com/spreadsheets/d/1Zmc8aIcyigZB0UE-5RYq60St5_Ia1JEXM5g_haABVG4/edit?usp=sharing",
+            //  badge: { text: "New", variant: "success" },
+            //},
+            //{
+            //  label: "AutoAO3App: Requests",
+            //  link: "https://autoao3app.fandom.tools/#/arlathanxchange2025/all?",
+            //  badge: { text: "New", variant: "success" },
+            //},
+            //{
+            //  label: "Treatless List",
+            //  link: "https://docs.google.com/spreadsheets/d/1eTkq2Hhj0h1Kd0daWslWuZozA13Vj5Cof8b2izG6tjQ/edit?usp=sharing",
+            //  badge: { text: "New", variant: "success" },
+            //},
             // {
             //   label: "Extension Request",
             //   link: "https://archiveofourown.org/collections/arlathanxchange2024/profile",
             //   badge: { text: "New", variant: "success" },
             // },
+            {
+              label: "2025 Collection",
+              link: "https://archiveofourown.org/collections/arlathanxchange2025/profile",
+            },
             {
               label: "2024 Collection",
               link: "https://archiveofourown.org/collections/arlathanxchange2024/profile",
