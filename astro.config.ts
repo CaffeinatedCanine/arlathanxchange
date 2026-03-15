@@ -63,11 +63,11 @@ export default defineConfig({
               link: "https://docs.google.com/spreadsheets/d/1QdrYxar34Js8qe3z-Otf0EMm1L0lDyz4F6diM-aKWKA/edit?gid=815088230#gid=815088230",
               badge: { text: "New", variant: "success" },
             },
-            {
-              label: "AutoAO3App: Requests",
-              link: "https://autoao3app.firebaseapp.com/#/arlathanxchange2026/tagset",
-              badge: { text: "New", variant: "success" },
-            },
+            //{
+            //  label: "AutoAO3App: Requests",
+            //  link: "https://autoao3app.firebaseapp.com/#/arlathanxchange2026/tagset",
+            //  badge: { text: "New", variant: "success" },
+            //},
             //{
             //  label: "Treatless List",
             //  link: "https://docs.google.com/spreadsheets/d/1eTkq2Hhj0h1Kd0daWslWuZozA13Vj5Cof8b2izG6tjQ/edit?usp=sharing",
