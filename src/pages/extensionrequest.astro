@@ -3,48 +3,57 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 ---
 <StarlightPage frontmatter={{ title: 'Extension Request' }}>
     <p>If you need an extension for your Arlathan eXchange Assignment, please complete the form below. Make sure to submit your request before the initial due date of the exchange.</p>
-    <p><b><u>Please note:</u></b> All assignments are due by 
+    <p><b><u>Please note:</u></b> All assignments are due by
         <span class="relative group cursor-help font-semibold">
             <span class="tooltip">
               Time shown in your timezone
               <span class="tooltip-arrow"></span>
             </span>
             <span class="dueTime" id="dueDate"></span>
-        </span>                                                   
+        </span>
          on the assigned extension date. If an assignment misses the initial due date or the extension deadline, and we have not received any communication from the participant, the mods may assign it to a pinch hitter.</p>
     <p>We will only use the method of communication you provide below to contact you about this request and follow-up if necessary. Your email or Discord handle will not be used for any other purpose and will be deleted from our records once the exchange is completed.</p>
     <p><b><u>Important:</u></b> Your extension is not official until you receive confirmation from us!</p>
-        
+
     <form id="extensionForm" method="POST" action="https://script.google.com/macros/s/AKfycbwzBB7A1AXCOnx3jLJNqIXxpA9thLgC2PjQK6unws1sW5mn4wkwCWSqDAR9ymW0wYgIYw/exec">
       <input type="hidden" id="fromWhere" name="fromWhere" value="website">
       <input type="hidden" id="status" name="status" value="Not Contacted">
-  
+
       <label for="preference">Preferred form of contact:</label>
       <select id="preference" name="preference" required>
         <option value="">Select</option>
         <option value="Email">Email</option>
         <option value="Discord">Discord</option>
       </select>
-  
+
       <label for="ao3">AO3 Handle:</label>
       <input type="text" id="ao3" name="ao3" required>
-  
+
       <label for="email">Your Email:</label>
-      <input type="email" id="email" name="email" required>
-  
+      <input type="email" id="email" name="email">
+
       <label for="discord">Your Discord:</label>
       <input type="text" id="discord" name="discord">
-  
+
       <label for="extensionDate">Extension To:</label>
-      <input type="date" id="extensionDate" name="extensionDate" required>
-  
+      <input
+        type="text"
+        id="extensionDate"
+        name="extensionDate"
+        placeholder="yyyy-mm-dd"
+        inputmode="numeric"
+        pattern="\d{4}-\d{2}-\d{2}"
+        title="Use the format yyyy-mm-dd"
+        required
+      >
+
       <button id="submitButton" type="submit">
         <span id="buttonText">Submit</span>
         <span id="buttonSpinner" class="hidden ml-2 animate-spin">⏳</span>
-      </button>      
-  
+      </button>
+
     </form>
-  
+
     <script>
         const unixTimestamp = 1744664400 * 1000;
 const dueDate = new Date(unixTimestamp);
@@ -57,27 +66,51 @@ document.getElementById("dueDate").innerText = dueDate.toLocaleTimeString("en-US
 const form = document.getElementById('extensionForm');
 const preferenceSelect = document.getElementById('preference');
 const discordInput = document.getElementById('discord');
+const emailInput = document.getElementById('email');
 const submitButton = document.getElementById('submitButton');
 const buttonText = document.getElementById("buttonText");
 const buttonSpinner = document.getElementById("buttonSpinner");
+const extensionDateInput = document.getElementById('extensionDate');
 
 const today = new Date().toISOString().split("T")[0];
-document.getElementById("extensionDate").setAttribute("min", today);
+extensionDateInput.value = today;
 
 function validateForm() {
   if (preferenceSelect.value.toLowerCase() === 'discord') {
     discordInput.setAttribute('required', 'required');
+    emailInput.removeAttribute('required');
   } else {
     discordInput.removeAttribute('required');
+    emailInput.setAttribute('required', 'required');
   }
 }
 
+function validateExtensionDate() {
+  const value = extensionDateInput.value.trim();
+  const isoDatePattern = /^\d{4}-\d{2}-\d{2}$/;
+
+  if (!isoDatePattern.test(value)) {
+    extensionDateInput.setCustomValidity('Use the format yyyy-mm-dd.');
+    return;
+  }
+
+  if (value < today) {
+    extensionDateInput.setCustomValidity('Extension date cannot be earlier than today.');
+    return;
+  }
+
+  extensionDateInput.setCustomValidity('');
+}
+
 preferenceSelect.addEventListener('change', validateForm);
+extensionDateInput.addEventListener('input', validateExtensionDate);
 validateForm();
+validateExtensionDate();
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
   validateForm();
+  validateExtensionDate();
 
   if (form.checkValidity()) {
     submitButton.disabled = true;
@@ -111,6 +144,9 @@ form.addEventListener('submit', async (e) => {
 
       form.reset();
       discordInput.removeAttribute('required');
+      emailInput.removeAttribute('required');
+      extensionDateInput.value = today;
+      validateExtensionDate();
     } catch (error) {
       const responseMessage = document.createElement('p');
       responseMessage.id = 'responseMessage';
@@ -126,6 +162,5 @@ form.addEventListener('submit', async (e) => {
     form.reportValidity();
   }
 });
-      </script>      
+      </script>
   </StarlightPage>
-  
