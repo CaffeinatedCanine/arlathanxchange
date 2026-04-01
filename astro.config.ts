@@ -53,11 +53,11 @@ export default defineConfig({
               link: "https://archiveofourown.org/tag_sets/28181",
               badge: { text: "New", variant: "success" },
             },
-            //{
-            //  label: "Sign-Ups",
-            //  link: "https://archiveofourown.org/collections/arlathanxchange2025/signups/new",
-            //  badge: { text: "New", variant: "success" },
-            //},
+            {
+              label: "Sign-Ups",
+              link: "https://archiveofourown.org/collections/arlathanxchange2025/signups/new",
+              badge: { text: "New", variant: "success" },
+            },
             {
               label: "Nominations Spreadsheet",
               link: "https://docs.google.com/spreadsheets/d/1QdrYxar34Js8qe3z-Otf0EMm1L0lDyz4F6diM-aKWKA/edit?gid=815088230#gid=815088230",
