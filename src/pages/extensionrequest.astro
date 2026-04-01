@@ -36,16 +36,7 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
       <input type="text" id="discord" name="discord">
 
       <label for="extensionDate">Extension To:</label>
-      <input
-        type="text"
-        id="extensionDate"
-        name="extensionDate"
-        placeholder="yyyy-mm-dd"
-        inputmode="numeric"
-        pattern="\d{4}-\d{2}-\d{2}"
-        title="Use the format yyyy-mm-dd"
-        required
-      >
+      <input type="date" id="extensionDate" name="extensionDate" required>
 
       <button id="submitButton" type="submit">
         <span id="buttonText">Submit</span>
@@ -73,7 +64,7 @@ const buttonSpinner = document.getElementById("buttonSpinner");
 const extensionDateInput = document.getElementById('extensionDate');
 
 const today = new Date().toISOString().split("T")[0];
-extensionDateInput.value = today;
+extensionDateInput.setAttribute("min", today);
 
 function validateForm() {
   if (preferenceSelect.value.toLowerCase() === 'discord') {
@@ -85,32 +76,12 @@ function validateForm() {
   }
 }
 
-function validateExtensionDate() {
-  const value = extensionDateInput.value.trim();
-  const isoDatePattern = /^\d{4}-\d{2}-\d{2}$/;
-
-  if (!isoDatePattern.test(value)) {
-    extensionDateInput.setCustomValidity('Use the format yyyy-mm-dd.');
-    return;
-  }
-
-  if (value < today) {
-    extensionDateInput.setCustomValidity('Extension date cannot be earlier than today.');
-    return;
-  }
-
-  extensionDateInput.setCustomValidity('');
-}
-
 preferenceSelect.addEventListener('change', validateForm);
-extensionDateInput.addEventListener('input', validateExtensionDate);
 validateForm();
-validateExtensionDate();
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
   validateForm();
-  validateExtensionDate();
 
   if (form.checkValidity()) {
     submitButton.disabled = true;
@@ -145,8 +116,7 @@ form.addEventListener('submit', async (e) => {
       form.reset();
       discordInput.removeAttribute('required');
       emailInput.removeAttribute('required');
-      extensionDateInput.value = today;
-      validateExtensionDate();
+      extensionDateInput.setAttribute("min", today);
     } catch (error) {
       const responseMessage = document.createElement('p');
       responseMessage.id = 'responseMessage';
