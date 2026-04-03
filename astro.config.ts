@@ -55,7 +55,7 @@ export default defineConfig({
             },
             {
               label: "Sign-Ups",
-              link: "https://archiveofourown.org/collections/arlathanxchange2025/signups/new",
+              link: "https://archiveofourown.org/collections/arlathanxchange2026/signups/new",
               badge: { text: "New", variant: "success" },
             },
             {
