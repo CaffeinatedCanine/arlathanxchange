@@ -49,7 +49,7 @@ export default defineConfig({
           label: "Exchange Links",
           items: [
             {
-              label: "TAO3 Tag Set",
+              label: "AO3 Tag Set",
               link: "https://archiveofourown.org/tag_sets/28181",
               badge: { text: "New", variant: "success" },
             },
