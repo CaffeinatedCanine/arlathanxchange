@@ -15,7 +15,7 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
     <p>We will only use the method of communication you provide below to contact you about this request and follow-up if necessary. Your email or Discord handle will not be used for any other purpose and will be deleted from our records once the exchange is completed.</p>
     <p><b><u>Important:</u></b> Your extension is not official until you receive confirmation from us!</p>
 
-    <form id="extensionForm" method="POST" action="https://script.google.com/macros/s/AKfycbzZ6opEhnzyYlNXwvOyP7XO7SKYSAB6fzHGhhjS227J2AncPQCvGIioxAexNh9f4VcsTA/exec">
+    <form id="extensionForm" method="POST" action="https://script.google.com/macros/s/AKfycbzlkbfJnth7Vn1pR4TzCD4dkwu0HfTGF-3ROPwsDX38rshHBn1HX46EUg8a_nvRKJtCcg/exec">
       <input type="hidden" id="fromWhere" name="fromWhere" value="website">
       <input type="hidden" id="status" name="status" value="Not Contacted">
 
@@ -76,6 +76,65 @@ function validateForm() {
   }
 }
 
+function removeResponseMessage() {
+  const existingMessage = document.getElementById('responseMessage');
+  if (existingMessage) {
+    existingMessage.remove();
+  }
+}
+
+function buildDebugText(result) {
+  const lines = [];
+
+  lines.push(`Form action: ${form.action}`);
+
+  if (result.debugMarker) {
+    lines.push(`Debug marker: ${result.debugMarker}`);
+  }
+
+  if (result.debug?.deploymentLabel) {
+    lines.push(`Deployment label: ${result.debug.deploymentLabel}`);
+  }
+
+  if (result.debug?.scriptUrl) {
+    lines.push(`Script URL: ${result.debug.scriptUrl}`);
+  }
+
+  if (result.debug?.webhookTarget) {
+    lines.push(`Webhook target: ${result.debug.webhookTarget}`);
+  }
+
+  if (result.debug?.webhookStatus) {
+    lines.push(`Webhook status: ${result.debug.webhookStatus}`);
+  }
+
+  if (result.debug?.uniqueId) {
+    lines.push(`Request ID: ${result.debug.uniqueId}`);
+  }
+
+  return lines.join('\n');
+}
+
+function appendResponseMessage(result, tone) {
+  const responseWrapper = document.createElement('div');
+  responseWrapper.id = 'responseMessage';
+
+  const messageLine = document.createElement('p');
+  messageLine.innerText = result.message || 'Successfully submitted!';
+  messageLine.classList.add(tone === 'error' ? 'text-red-600' : 'text-green-600');
+  responseWrapper.appendChild(messageLine);
+
+  const debugText = buildDebugText(result);
+  if (debugText) {
+    const debugBlock = document.createElement('pre');
+    debugBlock.innerText = debugText;
+    debugBlock.classList.add('mt-2', 'whitespace-pre-wrap', 'rounded', 'bg-slate-100', 'p-3', 'text-xs', 'text-slate-700');
+    responseWrapper.appendChild(debugBlock);
+  }
+
+  form.appendChild(responseWrapper);
+}
+
 preferenceSelect.addEventListener('change', validateForm);
 validateForm();
 
@@ -86,15 +145,10 @@ form.addEventListener('submit', async (e) => {
   if (form.checkValidity()) {
     submitButton.disabled = true;
     buttonText.textContent = "Sending...";
-    buttonSpinner.classList.remove("hidden");  // Show spinner
+    buttonSpinner.classList.remove("hidden");
 
     const formData = new FormData(form);
-
-    // Remove any old response message
-    const existingMessage = document.getElementById('responseMessage');
-    if (existingMessage) {
-      existingMessage.remove();
-    }
+    removeResponseMessage();
 
     try {
       const response = await fetch(form.action, {
@@ -106,27 +160,26 @@ form.addEventListener('submit', async (e) => {
       });
 
       const result = await response.json();
+      appendResponseMessage(result, response.ok ? 'success' : 'error');
 
-      const responseMessage = document.createElement('p');
-      responseMessage.id = 'responseMessage';
-      responseMessage.innerText = result.message || "Successfully submitted!";
-      responseMessage.classList.add('text-green-600');
-      form.appendChild(responseMessage);
-
-      form.reset();
-      discordInput.removeAttribute('required');
-      emailInput.removeAttribute('required');
-      extensionDateInput.setAttribute("min", today);
+      if (response.ok) {
+        form.reset();
+        discordInput.removeAttribute('required');
+        emailInput.removeAttribute('required');
+        extensionDateInput.setAttribute("min", today);
+      }
     } catch (error) {
-      const responseMessage = document.createElement('p');
-      responseMessage.id = 'responseMessage';
-      responseMessage.innerText = 'An error occurred. Please try again.';
-      responseMessage.classList.add('text-red-600');
-      form.appendChild(responseMessage);
+      appendResponseMessage(
+        {
+          message: 'An error occurred. Please try again.',
+          debugMarker: `Fetch error while posting to ${form.action}`,
+        },
+        'error'
+      );
     } finally {
       submitButton.disabled = false;
       buttonText.textContent = "Submit";
-      buttonSpinner.classList.add("hidden");  // Hide spinner again
+      buttonSpinner.classList.add("hidden");
     }
   } else {
     form.reportValidity();
